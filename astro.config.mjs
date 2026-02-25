@@ -58,6 +58,7 @@ export default defineConfig({
             { label: 'HDMI Mods', link: '/topics/hdmi' },
             { label: 'RGB & SCART', link: '/topics/rgb' },
             { label: 'Flash Carts', link: '/topics/flash-carts' },
+            { label: 'Optical Drive Emulators', link: '/topics/ode' },
           ],
         },
       ],
