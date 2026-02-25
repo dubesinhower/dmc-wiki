@@ -2,6 +2,8 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
+  site: 'https://dubesinhower.github.io',
+  base: '/dmc-wiki',
   integrations: [
     starlight({
       title: 'DMC Wiki',
