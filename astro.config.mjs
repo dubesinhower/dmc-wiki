@@ -23,6 +23,12 @@ export default defineConfig({
           ],
         },
         {
+          label: 'Consoles',
+          items: [
+            { label: 'All Consoles', link: '/consoles/' },
+          ],
+        },
+        {
           label: 'Nintendo',
           items: [
             { label: 'NES / Famicom', link: '/consoles/nes' },
@@ -71,6 +77,7 @@ export default defineConfig({
         {
           label: 'Topics',
           items: [
+            { label: 'All Topics', link: '/topics/' },
             { label: 'HDMI Mods', link: '/topics/hdmi' },
             { label: 'RGB & SCART', link: '/topics/rgb' },
             { label: 'Flash Carts', link: '/topics/flash-carts' },
