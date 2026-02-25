@@ -24,4 +24,4 @@ Pages are synthesized from community discussions and updated periodically. This 
 
 ## Something Missing or Wrong?
 
-This wiki is a prototype. If a page is incomplete or inaccurate, the best place to flag it is in the [Dubesinhower Modding Community Discord](https://discord.gg/bleedingretro).
+This wiki is a prototype. If a page is incomplete or inaccurate, the best place to flag it is in the [Dubesinhower Modding Community Discord](https://t.co/csIvwMwymP).

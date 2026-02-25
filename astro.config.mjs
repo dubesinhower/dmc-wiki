@@ -7,7 +7,7 @@ export default defineConfig({
       title: 'DMC Wiki',
       description: 'The Dubesinhower Modding Community Wiki — community-sourced knowledge on retro console mods, repairs, and upgrades.',
       social: [
-        { icon: 'discord', label: 'Discord', href: 'https://discord.gg/bleedingretro' },
+        { icon: 'discord', label: 'Discord', href: 'https://t.co/csIvwMwymP' },
       ],
       editLink: {
         baseUrl: 'https://github.com/dubesinhower/dmc-wiki/edit/main/',
