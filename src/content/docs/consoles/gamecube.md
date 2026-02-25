@@ -14,7 +14,7 @@ description: Mods, repairs, and upgrades for the Nintendo GameCube.
 
 ### S-Video / Component
 
-- **Insurrection Industries Double-Shielded S-Video Cable** — Covers SNES, N64, and GameCube. Available from Stone Age Gamer.
+- **Insurrection Industries Double-Shielded S-Video Cable** — Covers SNES, N64, and GameCube. Good quality analog output option before committing to an HDMI mod. [Buy · Stone Age Gamer](https://stoneagegamer.com/super-nintendo-n64-gamecube-s-video-cable.html)
 - The GameCube supports component video output via the Digital AV Out port on revisions that include it. Later revisions (DOL-101) removed the Digital AV Out.
 
 ## Storage / Optical Drive Emulators (ODE)

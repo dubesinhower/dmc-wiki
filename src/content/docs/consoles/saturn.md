@@ -20,8 +20,9 @@ description: Mods, repairs, and upgrades for the Sega Saturn.
 ## Optical Drive Emulators (ODE)
 
 - **SAROO** — SD card-based ODE for the Saturn. Widely discussed in the community. Firmware 0.9 released February 2026, addressing a race condition bug. See [segasaturnshiro.com](https://www.segasaturnshiro.com/2026/02/12/saroo-firmware-0-9-addresses-race-condition-bug/) (linked by community member CustomRider).
-- **Fenrir** — Another widely-used Saturn ODE. Community member JesusBurnsNeon noted: "I bought two MODEs for Dreamcast and Saturn, yet pulled it out the Saturn and put a Fenrir instead. It's great."
-- **MODE** (MODE ODE) — Covers Dreamcast and Saturn. JesusBurnsNeon described using it on Dreamcast while switching to Fenrir for Saturn.
+- **Fenrir** — Widely-used Saturn ODE. Community member JesusBurnsNeon noted: "I bought two MODEs for Dreamcast and Saturn, yet pulled it out the Saturn and put a Fenrir instead. It's great." Available from multiple resellers; search "Fenrir Saturn ODE." [Buy · Stone Age Gamer](https://stoneagegamer.com/fenrir-optical-drive-emulator-for-sega-saturn.html)
+
+- **MODE** (GDEmu) — Covers both Dreamcast and Saturn. Community members noted preferring Fenrir specifically for Saturn while using MODE on Dreamcast. [Product site](https://gdemu.wordpress.com/mode/mode-info/)
 - **Satiator** (Dr. Abrasive) — An earlier Saturn ODE. A reflective piece from Dr. Abrasive "four years after its release" was shared via segasaturnshiro.com. See [article](https://www.segasaturnshiro.com/2025/01/10/dr-abrasive-reflects-on-satiator-ode-four-years-after-its-release/).
 - **Saturn Wuxi** (Helder / tzmwx) — Open-source Saturn ODE/CD Switcher project. Community member RayneX tracked this closely: "Saturn Wuxi is being uploaded to Git right now. PCBs are available, as well as the 3D print mounts and some photos." BOM availability was noted as a follow-up. See [GitHub (Helder1981)](https://github.com/Helder1981/SegaSaturn-Wuxi) and [fork (tzmwx)](https://github.com/tzmwx/SegaSaturn-Wuxi/tree/main).
 - Community noted that "saturnswitcher is unavailable" and Saturn Wuxi emerged as a replacement option.
@@ -48,7 +49,7 @@ description: Mods, repairs, and upgrades for the Sega Saturn.
 ## Controllers
 
 - **8BitDo DIY controller mod for Saturn** — Community member RayneX mentioned a "button combo fix on 8BitDo DIY for Castlevania on Saturn," referencing active firmware/button mapping development.
-- **Retro-Bit wireless Bluetooth controllers** — Mentioned as a currently-available wireless option for Saturn.
+- **Retro-Bit Wireless Bluetooth Controllers** — Official Sega-licensed wireless controllers for Saturn. Available in 6-button and 8-button configurations. [Buy · Retro-Bit](https://retro-bit.com/sega-collaboration)
 
 ## Community Notes
 

@@ -13,24 +13,31 @@ Upscalers take analog (or sometimes digital) video signals from retro consoles a
 
 ### RetroTINK (by Mike Chi / @retrotink2)
 
-- **RetroTINK 5X Pro** — A widely used mid-range upscaler supporting up to 1080p. Accepts component, S-Video, composite, and SCART/RGB. Community members use it as the primary scaler for most setups. Integrates with Swiss on GameCube for native GB Player resolution mode.
-- **RetroTINK 4K** — High-end flagship scaler ($750). Supports 4K output, HDR, and rotation. Community members widely discussed it as the professional-tier option. Mike Chi also released a 4K CE (Consumer Edition) at a lower price point but without rotation, making it a contentious choice per the community.
-- **RetroTINK 4K CE** — A more affordable 4K variant, but missing rotation — a key feature for some members.
-- **RetroTINK Dongles** — Console-specific HDMI adapter cables released by Mike Chi as a simpler plug-and-play alternative to internal HDMI mods.
+- **RetroTINK 5X Pro** — Mid-range upscaler supporting up to 1080p. Accepts component, S-Video, composite, and SCART/RGB. The primary scaler for most community setups. Integrates with Swiss on GameCube for native GB Player resolution mode. [Buy · RetroTINK](https://www.retrotink.com/product-page/5x-pro)
+
+- **RetroTINK 4K** — High-end flagship scaler (~$750). Supports 4K output, HDR, and rotation. The professional-tier option per community consensus. [Buy · RetroTINK](https://www.retrotink.com/product-page/retrotink-4k)
+
+- **RetroTINK 4K CE** — A more affordable 4K variant, but missing rotation — a key feature for some members. [Buy · RetroTINK](https://www.retrotink.com)
+
+- **RetroTINK Dongles** — Console-specific HDMI adapter cables. Plug-and-play alternative to internal HDMI mods. [RetroTINK site](https://www.retrotink.com)
 
 *Note: In April 2025, RetroTINK paused US shipments temporarily due to tariff concerns.*
 
 ### PixelFX (by @pixelfxco)
 
-- **PixelFX Morph 4K** — An upscaler and line processor that is widely followed as an alternative to the RetroTINK 4K. Firmware updates released regularly; community members compare feature parity with the Tink 4K closely. Bonzo: *"PixelFX is slow but steady for making products at a fair price. The integration between their products is really cool."* RayneX notes the Morph has been advancing rapidly.
-- **Morph Analog Bridge** — An add-on for the Morph 4K. Members like GabeShack and RayneX ordered and received these in 2025.
-- **PixelFX Infinity Switch** — An anticipated combined HDMI/analog switch from PixelFX. Community members followed this closely and hoped it would ship in 2025–2026. Arthrimus (@Arthrimus) was noted as working on SVS HDMI input integration related to this category.
-- **PixelFX Retro GEM** — While primarily an internal HDMI mod, the GEM integrates closely with the Morph and other PixelFX products (see also: HDMI Mods page).
+- **PixelFX Morph 4K** — Upscaler and line processor widely followed as an alternative to the RetroTINK 4K. Regular firmware updates; community members track feature parity with the Tink 4K closely. Bonzo: *"PixelFX is slow but steady for making products at a fair price. The integration between their products is really cool."* [Buy · PixelFX](https://www.pixelfx.co/morph-4k)
+
+- **Morph Analog Bridge** — Add-on for the Morph 4K, expanding analog input options. [PixelFX site](https://www.pixelfx.co)
+
+- **PixelFX Infinity Switch** — Anticipated combined HDMI/analog switch from PixelFX. Community members followed this closely and hoped it would ship in 2025–2026. Not yet available as of early 2026. [PixelFX site](https://www.pixelfx.co)
+
+- **PixelFX Retro GEM** — While primarily an internal HDMI mod, the GEM integrates closely with the Morph and other PixelFX products. See [HDMI Mods](/topics/hdmi).
 
 ### OSSC (Open Source Scan Converter)
 
-- **OSSC** — An open source FPGA-based line multiplier. Budget-accessible and widely used. Does not perform full upscaling — it multiplies the line count (2x, 3x, 4x, 5x) for compatibility with displays that accept non-standard resolutions. Community members reference the OSSC as a solid entry-level option.
-- **OSSC Pro** — An updated version with additional input support (Legacy AV, RF). Gaw noted in Feb 2026 that the OSSC Pro was going through a board revision due to a parts change; stock at Video Game Perfection (VGP) was expected to be limited until Q2 2026.
+- **OSSC** — Open-source FPGA-based line multiplier. Budget-accessible entry point; does not do full upscaling but multiplies the line count (2x–5x) for compatibility with displays that accept non-standard resolutions. [Buy · Video Game Perfection](https://www.videogameperfection.com/products/ossc/)
+
+- **OSSC Pro** — Updated version with Legacy AV and RF input support. Going through a board revision as of February 2026; stock at VGP was expected to be limited until Q2 2026. [Buy · Video Game Perfection](https://www.videogameperfection.com/products/ossc-pro/)
 
 ### Legacy / Alternative Scalers
 

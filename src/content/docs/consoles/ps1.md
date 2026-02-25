@@ -9,8 +9,7 @@ description: Mods, repairs, and upgrades for the original PlayStation (SCPH-seri
 
 ### HDMI / RGB Output
 
-- **RetroGEM** (PixelFX) — Universal internal HDMI mod kit covering PS1, PS2, and N64. Community member obieone noted completing the RetroGEM on PS1, N64, and GameCube. Active firmware development tracked in community. A border/overlay was noted as present in PS1 and PS2 GEM builds by RayneX.
-- PSOne and PU-8 board compatibility has been a point of community interest; a future revision was mentioned as "in consideration" per community discussion.
+- **RetroGEM** (PixelFX) — Universal internal HDMI mod kit covering PS1, PS2, and N64. Widely installed in the community; active firmware development ongoing. Note: a border/overlay in PS1 and PS2 builds has been observed by community members — firmware revisions continue to address this. PSOne and PU-8 board compatibility was mentioned as "in consideration." [Buy · Stone Age Gamer](https://stoneagegamer.com/retro-gem-universal-hdmi-upscaler-kit-for-ps1-ps2-n64-pixelfx.html) · [PixelFX site](https://pixelfx.co)
 
 ## Storage / Flash Carts
 
@@ -24,7 +23,7 @@ description: Mods, repairs, and upgrades for the original PlayStation (SCPH-seri
 
 ## Modchips
 
-- **PSnee** — Open-source software modchip project with wide hardware support.
+- **PSnee** — Open-source software modchip project with wide hardware support. Runs on common cheap microcontrollers (ATtiny, PIC). [GitHub](https://github.com/kalymos/PSnee)
 - **Delta PSnee QSB** — A compact quick-solder board implementation of PSnee. Available from [delta-island.com](https://delta-island.com/index.php/en/tutorials/playstation-delta-psnee-qsb).
 - **tehUberChip** (L10N37) — Another open-source PS1 modchip. See [GitHub](https://github.com/L10N37/tehUberChip_Another_PSX_Modchip).
 
@@ -53,7 +52,7 @@ description: Mods, repairs, and upgrades for the original PlayStation (SCPH-seri
 ## Controllers
 
 - **Project Medusa** (Will's Console Modifications) — Internal BlueRetro kit for PS1, enabling Bluetooth wireless controller support. See [willsconsolemodifications.co.uk](https://www.willsconsolemodifications.co.uk).
-- **8Bitdo Retro Receiver for PS1/PS2** — USB-based wireless receiver allowing modern controllers on PS1. Linked by Dubesinhower.
+- **8BitDo Retro Receiver for PS1/PS2** — Dongle-style wireless receiver allowing modern 8BitDo and compatible controllers to work on PS1 hardware. [Buy · 8BitDo](https://www.8bitdo.com/retro-receiver-playstation/)
 - **Defender Pro Series** (Kickstarter) — Wireless controllers for PS1, PS2, and PS3 in development. Community linked the campaign.
 
 ## Community Notes

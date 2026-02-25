@@ -13,49 +13,56 @@ Many retro consoles output RGB natively or can be modded to do so. RGB mods repl
 
 ### RGB Mods by Console
 
-- **NESRGB** — Widely discussed RGB mod for the NES. Replaces the PPU to output clean RGB. The v4.0 launch in 2022 was notably rocky; community members tracked revisions carefully. Produced by Tim Worthington. Requires a working PPU donor chip.
-- **NESRGB alternative (Lava RGB)** — A newer alternative RGB board for NES with an available install guide. Community members noted a new version with updated install documentation.
-- **2600RGB** — RGB mod for the Atari 2600. A new version was released in 2025 (via etim.net.au) with sync fixes; starlightk7 upgraded specifically for that.
-- **N64 RGB (Arthrimus add-on)** — Arthrimus made an N64 RGB add-on for use with the N64 GEM. Community members noted this as an option for those running the GEM.
-- **Genesis Model 1 Subcarrier Bypass** — A new method was documented on retrorgb.com (credited to community members including RGBeter) for improving Genesis Model 1 RGB output by bypassing the subcarrier.
-- **RGBeter's RGBDRV** — A community-designed RGB driver board. Noted as great but with availability issues. RGBeter (RGBeter32X) is an active community member and hardware developer.
-- **PC-Engine RGB (composite-color accurate)** — In development as of Jan 2026. GallandRegis working on an RGB mod that can also display composite-accurate colors.
+- **NESRGB** — Internal RGB mod for the NES and Famicom. Produced by Tim Worthington. Replaces the PPU to output clean RGB; requires a donor PPU chip. The community go-to for NES RGB for years. [Project site](https://etim.net.au/nesrgb/) · [Buy · Laser Bear](https://www.laserbear.net)
+
+- **2600RGB** — RGB mod for the Atari 2600. A new version was released in 2025 with sync fixes; starlightk7 upgraded specifically for the sync improvements. Also by Tim Worthington. [Project site](https://etim.net.au)
+
+- **N64 RGB add-on** (Arthrimus) — An N64 RGB board designed to complement the N64 GEM install. An option for those running the GEM who also want RGB output.
+
+- **Genesis Model 1 Subcarrier Bypass** — A method documented on RetroRGB for improving Genesis Model 1 RGB output by bypassing the subcarrier. Open-source; credited to community members including RGBeter. [RetroRGB article](https://retrorgb.com/genesis-model-1-subcarrier-bypass-new-method-tested.html)
+
+- **RGBDRV** (RGBeter / RGBeter32X) — Community-designed open-source RGB driver board. Noted as high quality but with availability issues. [@RGBeter32X on X](https://twitter.com/RGBeter32X)
+
+- **PC-Engine RGB mod (composite-color accurate)** — In development as of January 2026. GallandRegis working on an RGB mod that can display composite-accurate colors alongside standard RGB output.
 
 ### Cables & Connectors
 
-- **Retro Access** — SCART and component cable maker. Widely used in the community; RayneX regularly shares their Bluesky posts. Known for high-quality cables including 32x patch cables and Genesis Model 1 cables with audio breakout.
-- **Retro Gaming Cables** — Another cable vendor; community members compare them to Retro Access.
-- **VGA to SCART adapter** — RayneX built an open-source VGA-to-SCART adapter PCB (BOM from Mouser, PCBs from OSH Park, SCART connectors from Amazon). Intended to route VGA-carrying scalers into SCART infrastructure.
-- **SCART to VGA (open source)** — obieone/dan working on an open source SCART-to-VGA adapter for community use.
+- **Retro Access** — SCART and component cable maker. Widely used in the community; known for high-quality cables including Genesis Model 1 cables with audio breakout and 32X patch cables. [Retro Access](https://retro-access.com)
+
+- **Retro Gaming Cables** — Another well-regarded cable vendor. Community members compare them to Retro Access; both are considered quality options. [Retro Gaming Cables](https://www.retrogamingcables.co.uk)
+
+- **VGA to SCART adapter** (RayneX) — Open-source VGA-to-SCART adapter PCB. Routes VGA-carrying scalers into SCART infrastructure. BOM from Mouser, PCBs from OSH Park.
 
 ### Switches & Infrastructure
 
-- **gscartsw** — An automatic SCART switch widely used in this community. GabeShack, subierekt, and others use one as the hub for all their SCART-connected consoles.
-- **gcomp** — Component video switch, mentioned alongside gscartsw by Tubo.
-- **Otaku Games SCART Switch Mod** — Allows a generic HDMI switch to sense voltage and switch profiles automatically. Serial control code by svirant (GitHub).
+- **gscartsw** — Automatic SCART switch. Widely used as the hub for all SCART-connected consoles in a setup. Sync-on-luma and sync-on-composite supported. [gscartsw site](https://www.gretrostuff.com)
 
-### Upscalers (see also: Upscalers page)
+- **gcomp** — Component video switch, mentioned alongside gscartsw for component-output consoles.
 
-- **OSSC (Open Source Scan Converter)** — Open source, FPGA-based line multiplier. Available at Video Game Perfection (VGP). The OSSC Pro was noted as going through a parts change, with stock expected to be limited until Q2 2026.
-- **OSSC Pro** — Updated version with additional features including Legacy AV and RF input support.
-- **Framemeister (XRGB Mini)** — Older Japanese upscaler. Still in use; considered a legacy option by some community members.
+- **Otaku Games SCART Switch Mod** — Allows a generic HDMI switch to auto-switch profiles via voltage sensing. Code by svirant. [GitHub](https://github.com/svirant/RT4k_HD15_serial_control/tree/main/Otaku%20Games%20Scart%20Switch)
+
+### Upscalers (see also: [Upscalers](/topics/upscalers))
+
+- **OSSC (Open Source Scan Converter)** — Open-source FPGA-based line multiplier. Budget-accessible entry point for RGB setups. Available from Video Game Perfection. [Buy · VGP](https://www.videogameperfection.com/products/ossc/)
+
+- **OSSC Pro** — Updated version with Legacy AV and RF input support. Gaw noted in Feb 2026 that it was going through a board revision; stock was expected to be limited until Q2 2026. [Buy · VGP](https://www.videogameperfection.com/products/ossc-pro/)
+
+- **Framemeister (XRGB Mini)** — Japanese upscaler by Micomsoft. Still in use; considered a legacy option by many community members compared to OSSC and RetroTINK.
 
 ## Console Compatibility
 
-RGB output availability by console (native or with mod):
+RGB output by console (native or with mod):
 
-| Console | RGB Status |
-|---|---|
-| SNES / Super Famicom | Native RGB via SCART |
-| Genesis / Mega Drive | Native RGB (Model 1 & 2) |
-| PlayStation 1 | Native RGB via SCART |
-| Saturn | Native RGB via SCART |
-| Dreamcast | Native VGA/RGB |
-| NES | Requires NESRGB mod |
-| Neo Geo AES | Native RGB |
-| Atari 2600 | Requires 2600RGB mod |
-| PC-Engine | Native RGB (TurboGrafx with mod) |
-| N64 | Requires RGB mod |
+- **SNES / Super Famicom** — Native RGB via SCART multi-out
+- **Genesis / Mega Drive** — Native RGB (Model 1 & 2); Model 3 requires mod
+- **PlayStation 1** — Native RGB via SCART multi-out
+- **Sega Saturn** — Native RGB via SCART multi-out
+- **Dreamcast** — Native VGA / RGB via VGA box or SCART
+- **Neo Geo AES** — Native RGB
+- **NES / Famicom** — Requires NESRGB mod
+- **Atari 2600** — Requires 2600RGB mod
+- **PC-Engine / TG-16** — Native RGB (requires RGB cable); TurboGrafx composite-only without mod
+- **Nintendo 64** — Requires RGB mod (revision-dependent)
 
 ## Community Notes
 

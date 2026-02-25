@@ -13,26 +13,35 @@ HDMI mods convert a console's native digital or analog video signal into HDMI ou
 
 ### Internal Mods
 
-- **PixelFX Retro GEM** — FPGA-based internal HDMI mod available for a wide range of consoles including PS1, PS2, GameCube, N64, Wii, and more. Produced by PixelFX (@pixelfxco). Includes an OSD and GameID integration. Community members widely discuss the GEM line as the current go-to for internal HDMI installs. The GEM also includes a universal upscaler kit variant.
-- **UltraHDMI (N64)** — An older internal HDMI mod for the N64. Community members note that some people still pay a premium for it despite the Retro GEM now being available for N64.
-- **XboxHDMI / Stellar XboxHD+** — Internal HDMI mod for original Xbox, developed by MakeMHz. Community members use profile integrations with the PixelFX Morph scaler.
-- **GCVideo / Pluto IIx** — FPGA-based HDMI output for GameCube via the Digital AV port. A well-established solution; community members reference it for GameCube owners who don't want to do a full GEM install.
-- **OpenTendo HDMI** — Open source project to add HDMI to the NES; discussed humorously in community as "OpenTenHDMI."
-- **FX Direct** — Open source board from PixelFX (GitLab: `pixelfx-public/fx-direct`) related to GEM connectivity.
-- **Panasonic Q Internal HDMI Mod** — GitHub project (`HDR/Panasonic-Q-Internal-HDMI-Mod`) for the GameCube/DVD hybrid console.
+- **PixelFX Retro GEM** — FPGA-based internal HDMI mod available for PS1, PS2, GameCube, N64, Wii, and more. Includes an OSD and GameID integration. The current community go-to for internal HDMI installs. [Buy · Stone Age Gamer](https://stoneagegamer.com/retro-gem-universal-hdmi-upscaler-kit-for-ps1-ps2-n64-pixelfx.html) · [PixelFX site](https://pixelfx.co)
+
+- **UltraHDMI (N64)** — An older internal HDMI mod for the N64. Community members note that some people still pay a premium for it despite the Retro GEM now covering N64. Worth sourcing secondhand if you find one at a fair price.
+
+- **XboxHDMI / Stellar XboxHD+** — Internal HDMI mod for original Xbox, developed by MakeMHz. Integrates with PixelFX Morph scaler profiles. [MakeMHz site](https://makemhz.com/products/xboxhd)
+
+- **GCVideo / Pluto IIx** — FPGA-based HDMI output for GameCube via the Digital AV port. Well-established solution for GameCube owners who don't want a full GEM install. Requires a GameCube with the Digital AV Out port (not present on DOL-101). [Buy · Castlemania Games](https://www.castlemaniagames.com/products/pluto-iix-hdmi-mod-for-gamecube)
+
+- **FX Direct** — Open-source board from PixelFX related to GEM connectivity. [GitLab](https://gitlab.com/pixelfx-public/fx-direct)
+
+- **Panasonic Q Internal HDMI Mod** — GitHub project adding internal HDMI to the Panasonic Q (GameCube/DVD hybrid). [GitHub](https://github.com/HDR/Panasonic-Q-Internal-HDMI-Mod)
 
 ### Adapters & Dongles
 
-- **RetroTINK Dongles** — Mike Chi (@retrotink2) released a line of console-specific HDMI adapter cables/dongles. Community members followed these closely as a simpler alternative to internal mods.
-- **AVE HDMI (Wii Mini)** — An HDMI adapter that works with the Wii Mini (requires one extra wire). Discussed as a quick solution.
-- **Reflex Prism** — Made by MiSTer Addons. A digital-to-analog and HDMI bridge for MiSTer; community members noted its use for running GameCube games via HDMI directly.
-- **JAG2HD** — HDMI video adapter for Atari Jaguar by Humble Bazooka; available at Stone Age Gamer.
+- **RetroTINK Dongles** — Console-specific HDMI adapter cables by Mike Chi (@retrotink2). A simpler alternative to internal mods — no soldering required. Covers multiple systems. [RetroTINK site](https://www.retrotink.com)
+
+- **AVE HDMI (Wii Mini)** — HDMI adapter for the Wii Mini. Requires one additional wire during installation. A quick, low-cost solution for HDMI output on the Wii Mini. Available from various resellers; search "Wii Mini HDMI adapter."
+
+- **Reflex Prism** — Digital-to-analog and HDMI bridge for MiSTer, made by MiSTer Addons. Used for routing MiSTer output to analog displays and scalers. [Buy · MiSTer Addons](https://misteraddons.com/products/reflex-prism-hdmi-to-analog)
+
+- **JAG2HD** — HDMI video adapter for the Atari Jaguar, by Humble Bazooka. [Buy · Stone Age Gamer](https://stoneagegamer.com/jag2hd-video-adapter-for-atari-jaguar-humble-bazooka.html)
 
 ### Switches & Infrastructure
 
-- **gscartsw** — Widely discussed analog SCART switch; many members use it alongside HDMI-modded consoles.
-- **Infinity Switch** — An anticipated all-in-one switch (from Arthrimus) that would combine HDMI and analog inputs in one unit. Community members followed this closely and discussed it as a potential replacement for separate HDMI and SCART switch setups. HDMI port count was debated repeatedly in Discord.
-- **Otaku Games SCART Switch Mod** — A community mod that allows a generic HDMI switch to support profile switching via voltage sensing. Code by svirant: `github.com/svirant/RT4k_HD15_serial_control`.
+- **gscartsw** — Widely discussed analog SCART switch. Many members use it alongside HDMI-modded consoles to manage mixed analog/digital setups. [gscartsw site](https://www.gretrostuff.com)
+
+- **Infinity Switch** — Anticipated all-in-one switch from Arthrimus that would combine HDMI and analog inputs. Community members followed this closely; HDMI port count changed in every discussion thread.
+
+- **Otaku Games SCART Switch Mod** — Community mod allowing a generic HDMI switch to support profile switching via voltage sensing. Code by svirant. [GitHub](https://github.com/svirant/RT4k_HD15_serial_control/tree/main/Otaku%20Games%20Scart%20Switch)
 
 ## Console Compatibility
 

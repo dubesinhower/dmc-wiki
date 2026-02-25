@@ -17,9 +17,11 @@ description: Mods, repairs, and upgrades for the Sega Genesis (all models) and M
 
 ## Storage / Flash Carts
 
-- **Mega EverDrive Pro** (Krikzz) — SD-based flash cart supporting Genesis/Mega Drive and Mega CD game images. Discussed in context of 32X integration and Genesis Mode switching.
-- **Mega EverDrive X7** (Krikzz) — Focused Genesis/Mega Drive flash cart without Mega CD support.
-- **MegaSD** — Alternative flash cart supporting both Genesis and Mega CD titles.
+- **Mega EverDrive Pro** (Krikzz) — SD-based flash cart supporting Genesis/Mega Drive and Mega CD game images. Discussed in context of 32X integration and Genesis Mode switching. [Buy · Krikzz](https://krikzz.com/our-products/cartridges/mepro.html)
+
+- **Mega EverDrive X7** (Krikzz) — Focused Genesis/Mega Drive flash cart without Mega CD support. [Buy · Krikzz](https://krikzz.com/our-products/cartridges/med-x7.html)
+
+- **MegaSD** (TerraOnion) — Alternative flash cart supporting both Genesis and Mega CD titles on a single cart. [Product site](https://terraonion.com/en/producto/megasd/)
 
 ## Optical Drive Emulators (ODE)
 
