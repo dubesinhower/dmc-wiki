@@ -66,4 +66,4 @@ description: Mods, repairs, and upgrades for the Game Boy Advance (AGB-001) and 
 
 ---
 
-*This page was generated from community discussion in the Bleeding Retro Discord. Last updated: 2026-02-25.*
+*This page was generated from community discussion in the Dubesinhower Modding Community Discord. Last updated: 2026-02-25.*

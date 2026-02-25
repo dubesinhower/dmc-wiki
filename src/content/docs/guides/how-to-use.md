@@ -5,7 +5,7 @@ description: What this wiki is, how it's built, and how to read it.
 
 ## What This Is
 
-This wiki synthesizes years of knowledge shared in the Bleeding Retro Discord community. It covers possible mods, repairs, and upgrades for retro consoles.
+This wiki synthesizes years of knowledge shared in the Dubesinhower Modding Community Discord community. It covers possible mods, repairs, and upgrades for retro consoles.
 
 ## How to Read It
 
@@ -24,4 +24,4 @@ Pages are synthesized from community discussions and updated periodically. This 
 
 ## Something Missing or Wrong?
 
-This wiki is a prototype. If a page is incomplete or inaccurate, the best place to flag it is in the [Bleeding Retro Discord](https://discord.gg/bleedingretro).
+This wiki is a prototype. If a page is incomplete or inaccurate, the best place to flag it is in the [Dubesinhower Modding Community Discord](https://discord.gg/bleedingretro).
