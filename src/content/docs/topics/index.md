@@ -11,7 +11,7 @@ Topics that span multiple consoles or apply broadly to retro hardware modding.
 |---|---|
 | [HDMI Mods](/dmc-wiki/topics/hdmi/) | Digital HDMI output options for retro consoles |
 | [RGB & SCART](/dmc-wiki/topics/rgb/) | Analog RGB output, cables, and signal standards |
-| Upscalers *(coming soon)* | RetroTink, OSSC, PixelFX, and other upscaling solutions |
+| [Upscalers](/dmc-wiki/topics/upscalers/) | RetroTink, OSSC, PixelFX, and other upscaling solutions |
 
 ## Storage & Software
 
@@ -24,5 +24,5 @@ Topics that span multiple consoles or apply broadly to retro hardware modding.
 
 | Topic | Description |
 |---|---|
-| FPGA *(coming soon)* | MiSTer, Analogue Pocket, and FPGA-based hardware |
-| 3D Printing *(coming soon)* | Shells, cases, mounts, and accessories for retro hardware |
+| [FPGA](/dmc-wiki/topics/fpga/) | MiSTer, Analogue Pocket, and FPGA-based hardware |
+| [3D Printing](/dmc-wiki/topics/3d-printing/) | Shells, cases, mounts, and accessories for retro hardware |
