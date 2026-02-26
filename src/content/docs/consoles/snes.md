@@ -56,7 +56,7 @@ description: Mods, repairs, and upgrades for the SNES (all revisions) and Super 
 - **SNES Edge Enhancer** by [Voultar](https://x.com/Voultar)
   A DIY SNES video enhancement kit that sharpens the SNES video output by boosting edge definition. Sold as a kit; install is streamed by Voultar. Note: community investigation ongoing (as of Feb 2026) into whether it can stress the PPU2 analog DAC under certain conditions. A popular and widely discussed SNES video mod from one of the most prominent SNES modders in the community. The ongoing PPU2 concern is active community discussion.
 - **[SNES RGB Bypass](https://github.com/borti4938/SNES_RGB_Bypass)** by [borti4938](https://github.com/borti4938)
-  Open source internal RGB bypass mod for SNES/Super Famicom. Addresses the video noise present in stock output by bypassing the onboard video encoder. The go-to open source SNES RGB mod. Widely installed, well documented, and free to build.
+  Open source internal RGB bypass mod for SNES/Super Famicom. Addresses the video noise present in stock output by bypassing the onboard video encoder. Open design, free to fabricate from Gerbers. Covers multiple SNES board revisions with documented installation notes on GitHub.
 <!-- DB:END -->
 
 ## Storage — Flash Carts
