@@ -65,6 +65,8 @@ description: Mods, repairs, and upgrades for the Nintendo GameCube.
 ## Controllers
 
 <!-- DB:START section="Controllers" console=gamecube -->
+- **[GameCube BlueRetro Internal Adapter V3](https://www.laserbear.net/products/gamecube-blue-retro-internal-adapter)** by [Greg of Laser Bear](https://laserbear.net)
+  An original Laser Bear PCB that installs in place of the GameCube controller board, adding full Bluetooth controller support via the BlueRetro firmware. V3 features fully 3D-printed custom controller ports, an embedded antenna, per-port LEDs, remote power/reset macros, and a CR2032 battery holder. Supports up to 4 Bluetooth controllers simultaneously, with wired controllers still usable on any port. Lets you use any modern Bluetooth controller (PS5, Xbox, Switch Pro, and more) wirelessly on a GameCube with near-wired latency. Clean internal install with no external dongles. $40-65.
 - **[GC Ultimate 2](https://gcultimate.com)** by [Mitch HHL](https://x.com/MitchHHL)
   Open source, repair-friendly controller with hall effect sticks and triggers, gyro, analog triggers, and native Steam support. Compatible with N64, GameCube, Switch, Switch 2, and PC. Addresses the N64/GameCube controller reliability problem with modern internals. Fully open source firmware. Repair-friendly design (iFixit collab). Active Kickstarter as of February 2026. ~$60–80.
 <!-- DB:END -->
@@ -72,6 +74,21 @@ description: Mods, repairs, and upgrades for the Nintendo GameCube.
 ## Shell & Cosmetics
 
 <!-- DB:START section="Shell & Cosmetics" console=gamecube -->
+- **[GCLoader SD Mount](https://www.laserbear.net/products/gc-loader-sd-mount)** by [Greg of Laser Bear](https://laserbear.net)
+  A 3D-printed mount for the GCLoader ODE that installs into the GameCube disc bay opening. Presents the SD card slot where the disc would normally sit, with an SD extension cable routing the slot to an accessible position. Available in many color options including color-matched console variants. Turns the GCLoader ODE into a clean, integrated solution with easy SD card access. Eliminates the need to crack open the GameCube just to swap game libraries. $15-25.
+- **[GameCube Drive Bay Cover](https://www.laserbear.net/products/gamecube-drive-bay-cover)** by [Greg of Laser Bear](https://laserbear.net)
+  A 3D-printed cover for the GameCube optical drive bay. Provides a clean, flush look when the original disc drive has been replaced with an ODE. Compatible with GCLoader, CubeODE, and FlippyDrive. Pairs with the FlippyDrive SD Extension for SD access via the light pipe position. Completes the aesthetic of an ODE build — no unsightly open bay or mismatched panels. A simple cosmetic essential for clean ODE GameCube builds. $5-15.
 - **[GameCube Rear IO Panels (RetroGEM / GC Dual)](https://www.printables.com/model/1244072-gamecube-replacement-rear-io-panels-for-retrogem)** by [BlueShell3D](https://x.com/BlueShell3D)
   3D-printed replacement rear IO panels for the GameCube, with cutouts specifically designed for RetroGEM and GC Dual HDMI installs. Variants include combined HDMI + Ethernet cutouts for FlippyDrive builds. Solves the cosmetic problem of HDMI mods requiring holes in the GameCube shell — these make the build look intentional and clean. Open source.
+<!-- DB:END -->
+
+## Accessories
+
+<!-- DB:START section="Accessories" console=gamecube -->
+- **[FlippyDrive SD Extension](https://www.laserbear.net/products/flippydrive-sd-extension)** by [Greg of Laser Bear](https://laserbear.net)
+  A kit that replaces the light pipe in the top of the GameCube with an SD card slot. Makes it easy to access and swap the FlippyDrive SD card without opening the console. Includes a 3D-printed clear resin housing and flex PCB. The FlippyDrive's SD card is otherwise buried inside the console. This gives users convenient external access for game management and firmware updates without repeated disassembly. $10-25.
+- **[ETH2SP1 GameCube Ethernet Adapter](https://www.laserbear.net/products/gamecube-eth2sp1-ethernet-adapter-for-swiss-bba-alternative)** by [Greg of Laser Bear](https://laserbear.net)
+  An SPI Ethernet adapter for the GameCube that connects to Serial Port 1, providing a modern BBA (Broadband Adapter) alternative. Built on the Wiznet W5500 module for higher interface speeds than typical ENC28J60-based adapters. Snaps into the bottom bay of the GameCube with the Ethernet jack accessible from the side — just like the original BBA. Original BBA units are rare and expensive. This gives GameCube owners an affordable way to do LAN multiplayer in Double Dash, Kirby Air Ride, 1080° Avalanche, and online Phantasy Star Online via private servers. $20-40.
+- **[SD2SP1 GameCube SD Adapter](https://www.laserbear.net/products/gamecube-sd2sp1-sd-card-adapter-for-serial-port-1)** by [Greg of Laser Bear](https://laserbear.net)
+  An SD card adapter for the GameCube Serial Port 1 (SP1) on the base of the console. Provides an SD card interface accessible by Swiss homebrew. Useful for GameCubes that lack an SP2 port. Allows SD card game loading via Swiss on consoles without a Serial Port 2 slot, expanding compatibility for ODE-free homebrew setups. $5-15.
 <!-- DB:END -->
