@@ -66,8 +66,6 @@ description: Mods, repairs, and upgrades for the SNES (all revisions) and Super 
 ## Display — FPGA
 
 <!-- DB:START section="Display — FPGA" console=snes -->
-- **[OpenSFC](https://1uprestorations.com)** by [starlightk7](https://x.com/starlightk7)
-  An open source FPGA-based Super Famicom/SNES console. Aims to be a fully open hardware alternative to original SFC/SNES hardware. One of the very few attempts at a fully open source FPGA SNES. Community interest is high given SNES hardware reliability concerns (aging PPU chips). Controllers launched first as early access via Ko-Fi in early 2026.
 <!-- DB:END -->
 
 ## Storage — Flash Carts
@@ -82,4 +80,11 @@ description: Mods, repairs, and upgrades for the SNES (all revisions) and Super 
 <!-- DB:START section="Accessories" console=snes -->
 - **[FamiCoun](https://github.com/jeffqchen/FamiCoun-Famicom-Front-Expansion-NES-SNES-Adapter)** by [jeffqchen](https://x.com/jeffqchen)
   Open source adapter connecting the Famicom's front expansion port to NES and SNES hardware. Allows Famicom expansion audio accessories to work through to NES hardware. Enables expansion audio on NES hardware without modifying the console itself.
+<!-- DB:END -->
+
+## PCB & Reproduction
+
+<!-- DB:START section="PCB & Reproduction" console=snes -->
+- **[OpenSFC](https://1uprestorations.com)** by [starlightk7](https://x.com/starlightk7)
+  An open source replacement mainboard for the Super Famicom/SNES console. Aims to be a fully open hardware alternative to original SFC/SNES hardware. One of the very few attempts at a fully open source SNES replacement mainboard (similar to OpenTendo for NES). Community interest is high given SNES hardware reliability concerns (aging PPU chips). Controllers launched first as early access via Ko-Fi in early 2026.
 <!-- DB:END -->
