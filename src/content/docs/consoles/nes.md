@@ -71,7 +71,7 @@ description: Mods, repairs, and upgrades for the NES (North American front-loade
 
 <!-- DB:START section="Display — RGB Mods" console=nes -->
 - **[NESRGB](https://etim.net.au/nesrgb/)** by [Tim Worthington](https://etim.net.au)
-  Internal RGB mod kit for the NES and Famicom. Installs internally and adds an RGB header. Requires a donor PPU chip. Community standard for NES RGB for many years. The long-standing community-standard NES RGB solution. Widely documented and supported. ~$40–60.
+  Internal RGB mod kit for the NES and Famicom. Installs internally and adds an RGB header. Requires a donor PPU chip. Community standard for NES RGB for many years. The long-standing community-standard NES RGB solution. Widely documented and supported. Stable — no longer in active development. ~$40–60.
 <!-- DB:END -->
 
 ## Audio Mods

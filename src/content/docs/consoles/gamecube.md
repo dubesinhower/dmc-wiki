@@ -65,10 +65,10 @@ description: Mods, repairs, and upgrades for the Nintendo GameCube.
 ## Controllers
 
 <!-- DB:START section="Controllers" console=gamecube -->
+- **[GC Ultimate 2](https://gcultimate.com)** by [Mitch HHL](https://x.com/MitchHHL)
+  Open source, repair-friendly controller with hall effect sticks and triggers, gyro, analog triggers, and native Steam support. Compatible with N64, GameCube, Switch, Switch 2, and PC. Addresses the N64/GameCube controller reliability problem with modern internals. Fully open source firmware. Repair-friendly design (iFixit collab). Active Kickstarter as of February 2026. Crowdfunding as of 2026-02. ~$60–80.
 - **[GameCube BlueRetro Internal Adapter V3](https://www.laserbear.net/products/gamecube-blue-retro-internal-adapter)** by [Greg of Laser Bear](https://laserbear.net)
   An original Laser Bear PCB that installs in place of the GameCube controller board, adding full Bluetooth controller support via the BlueRetro firmware. V3 features fully 3D-printed custom controller ports, an embedded antenna, per-port LEDs, remote power/reset macros, and a CR2032 battery holder. Supports up to 4 Bluetooth controllers simultaneously, with wired controllers still usable on any port. Lets you use any modern Bluetooth controller (PS5, Xbox, Switch Pro, and more) wirelessly on a GameCube with near-wired latency. Clean internal install with no external dongles. $40-65.
-- **[GC Ultimate 2](https://gcultimate.com)** by [Mitch HHL](https://x.com/MitchHHL)
-  Open source, repair-friendly controller with hall effect sticks and triggers, gyro, analog triggers, and native Steam support. Compatible with N64, GameCube, Switch, Switch 2, and PC. Addresses the N64/GameCube controller reliability problem with modern internals. Fully open source firmware. Repair-friendly design (iFixit collab). Active Kickstarter as of February 2026. ~$60–80.
 <!-- DB:END -->
 
 ## Shell & Cosmetics
