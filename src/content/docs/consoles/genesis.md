@@ -10,14 +10,14 @@ description: Mods, repairs, and upgrades for the Sega Genesis (all models) and M
 ### RGB / HDMI Output
 
 - **Triple Bypass Mod** — Widely discussed RGB upgrade that bypasses the onboard video encoder. Replaces composite/RF output path with clean RGB directly from the VDP. Available pre-assembled from Stone Age Gamer and as a DIY kit. See [Stone Age Gamer listing](https://stoneagegamer.com/sega-genesis-mega-drive-triple-bypass-modification-version-2.html).
-- **4BP Quadruple Bypass** (zaxour) — Extended bypass mod supporting additional signal paths. DIY kit available via [zaxour's Ko-fi shop](https://ko-fi.com/s/51d6725bbe).
+- **4BP Quadruple Bypass** (zaxour) — Extended bypass mod supporting additional signal paths. DIY kit available via [zaxour's Ko-fi shop](https://ko-fi.com/s/51d6725bbe). → [Full details](/projects/4bp-quadruple-bypass)
 - **Genesis Model 1 Subcarrier Bypass** — New method for the Model 1 board, covered by RetroRGB. Discussed by GabeShack in the community. See [RetroRGB article](https://retrorgb.com/genesis-model-1-subcarrier-bypass-new-method-tested.html).
 - **RGBeter32X open-source composite/S-Video board** — Community member RGBeter ([@RGBeter32X](https://twitter.com/RGBeter32X)) noted in Discord: "New composite and S-Video (better than any stock Genesis because we spent too long tuning the luma filtering), technically a subcarrier bypass." Described as open-source.
 - **HDMI full solution** — Community members noted that achieving a full internal HDMI solution for Genesis requires multiple boards and has become expensive.
 
 ## Storage / Flash Carts
 
-- **Mega EverDrive Pro** (Krikzz) — SD-based flash cart supporting Genesis/Mega Drive and Mega CD game images. Discussed in context of 32X integration and Genesis Mode switching. [Buy · Krikzz](https://krikzz.com/our-products/cartridges/mepro.html)
+- **Mega EverDrive Pro** (Krikzz) — SD-based flash cart supporting Genesis/Mega Drive and Mega CD game images. Discussed in context of 32X integration and Genesis Mode switching. [Buy · Krikzz](https://krikzz.com/our-products/cartridges/mepro.html) → [Full details](/projects/mega-everdrive-pro)
 
 - **Mega EverDrive X7** (Krikzz) — Focused Genesis/Mega Drive flash cart without Mega CD support. [Buy · Krikzz](https://krikzz.com/our-products/cartridges/med-x7.html)
 

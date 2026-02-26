@@ -9,7 +9,7 @@ description: Mods, repairs, and upgrades for the original PlayStation (SCPH-seri
 
 ### HDMI / RGB Output
 
-- **RetroGEM** (PixelFX) — Universal internal HDMI mod kit covering PS1, PS2, and N64. Widely installed in the community; active firmware development ongoing. Note: a border/overlay in PS1 and PS2 builds has been observed by community members — firmware revisions continue to address this. PSOne and PU-8 board compatibility was mentioned as "in consideration." [Buy · Stone Age Gamer](https://stoneagegamer.com/retro-gem-universal-hdmi-upscaler-kit-for-ps1-ps2-n64-pixelfx.html) · [PixelFX site](https://pixelfx.co)
+- **RetroGEM** (PixelFX) — Universal internal HDMI mod kit covering PS1, PS2, and N64. Widely installed in the community; active firmware development ongoing. Note: a border/overlay in PS1 and PS2 builds has been observed by community members — firmware revisions continue to address this. PSOne and PU-8 board compatibility was mentioned as "in consideration." [Buy · Stone Age Gamer](https://stoneagegamer.com/retro-gem-universal-hdmi-upscaler-kit-for-ps1-ps2-n64-pixelfx.html) · [PixelFX site](https://pixelfx.co) → [Full details](/projects/retrogem)
 
 ## Storage / Flash Carts
 
@@ -29,7 +29,7 @@ description: Mods, repairs, and upgrades for the original PlayStation (SCPH-seri
 
 ## Memory Cards
 
-- **MemCard PRO** (8BitMods) — Digital memory card replacement for PS1 with game-aware auto-switching. Available from Rondo Products ([rondoproducts.com](https://rondoproducts.com/products/memcard-pro)). Linked by community member hardbroiled; actively discussed in the community around pre-order and multi-product shipping groupings.
+- **MemCard PRO** (8BitMods) — Digital memory card replacement for PS1 with game-aware auto-switching. Available from Rondo Products ([rondoproducts.com](https://rondoproducts.com/products/memcard-pro)). Linked by community member hardbroiled; actively discussed in the community around pre-order and multi-product shipping groupings. → [Full details](/projects/memcard-pro)
 
 ## Common Repairs
 

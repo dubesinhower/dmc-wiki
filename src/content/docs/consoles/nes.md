@@ -9,15 +9,15 @@ description: Mods, repairs, and upgrades for the NES (North American front-loade
 
 ### RGB Output
 
-- **NESRGB** (Tim Worthington) — Internal RGB mod kit for the NES/Famicom. One of the longest-standing community-recommended RGB solutions. Installs internally and adds an RGB header to the board. Compatible with the original Famicom and NES front-loader; noted as compatible with OpenTendo replacement boards per community discussion. [Project site](https://etim.net.au/nesrgb/) · [Buy · Laser Bear Industries](https://www.laserbear.net)
+- **NESRGB** (Tim Worthington) — Internal RGB mod kit for the NES/Famicom. One of the longest-standing community-recommended RGB solutions. Installs internally and adds an RGB header to the board. Compatible with the original Famicom and NES front-loader; noted as compatible with OpenTendo replacement boards per community discussion. [Project site](https://etim.net.au/nesrgb/) · [Buy · Laser Bear Industries](https://www.laserbear.net) → [Full details](/projects/nesrgb)
 
 - **Hi-Def NES** (Analogue) — Internal HDMI output mod for the NES front-loader. Discontinued by Analogue; units circulate secondhand. Added HDMI output with scanline and resolution options. Worth sourcing secondhand if HDMI is the goal and a donor console is available.
 
-- **OpenTendo** — Open-source NES mainboard replacement project. A community-built reproduction of the NES front-loader main board with improvements. Designed to accept mods like NESRGB. [GitHub](https://github.com/Redherring32/OpenTendo)
+- **OpenTendo** — Open-source NES mainboard replacement project. A community-built reproduction of the NES front-loader main board with improvements. Designed to accept mods like NESRGB. [GitHub](https://github.com/Redherring32/OpenTendo) → [Full details](/projects/opentendo)
 
 ### Composite / AV Restoration
 
-- **POW Block AV/Power Board** (zaxour) — Replacement AV and power board for the NES front-loader. Addresses aging components on the original board. [Buy · zaxour Ko-fi](https://ko-fi.com/s/a42a9b282f)
+- **POW Block AV/Power Board** (zaxour) — Replacement AV and power board for the NES front-loader. Addresses aging components on the original board. [Buy · zaxour Ko-fi](https://ko-fi.com/s/a42a9b282f) → [Full details](/projects/pow-block-nes)
 
 - **NES Power Module Redesign** (ShawMerlin) — GitHub project redesigning the NES power module, including an RGB–Genesis 9-pin variant for RGB output. Drop-in improvement over the aging original power circuitry. [GitHub](https://github.com/ShawMerlin/NES-Power-Module-Redesign)
 
@@ -25,13 +25,13 @@ description: Mods, repairs, and upgrades for the NES (North American front-loade
 
 ## Audio Mods
 
-- **EPSM** (Perkka / Muramasa) — FM audio expansion board for NES and Famicom. Adds YM2149 and YM2203 sound chips via the NES expansion port, enabling FM synthesis audio playback on original hardware. Open-source project. [GitHub](https://github.com/perkka/epsm)
+- **EPSM** (Perkka / Muramasa) — FM audio expansion board for NES and Famicom. Adds YM2149 and YM2203 sound chips via the NES expansion port, enabling FM synthesis audio playback on original hardware. Open-source project. [GitHub](https://github.com/perkka/epsm) → [Full details](/projects/epsm)
 
 ---
 
 ## Storage / Flash Carts
 
-- **EverDrive N8 Pro** (Krikzz) — SD-based flash cart for NES and Famicom. Supports most mappers including expansion audio (VRC6, FDS, Namco 163, etc.). Community's go-to recommendation for a no-compromise NES flash cart. [Buy · Krikzz](https://krikzz.com/our-products/cartridges/en8.html)
+- **EverDrive N8 Pro** (Krikzz) — SD-based flash cart for NES and Famicom. Supports most mappers including expansion audio (VRC6, FDS, Namco 163, etc.). Community's go-to recommendation for a no-compromise NES flash cart. [Buy · Krikzz](https://krikzz.com/our-products/cartridges/en8.html) → [Full details](/projects/everdrive-n8-pro)
 
 - **FDS2NES** — PCB adapter that converts a Famicom Disk System RAM adapter (HVC-023) into a standard cart-slot solution, eliminating the need for the physical RAM adapter unit. Discussed via eBay listings in the community.
 
@@ -61,9 +61,9 @@ description: Mods, repairs, and upgrades for the NES (North American front-loade
 
 - **Famicom Cartridge Shells** (Muramasa Entertainment) — Translucent replacement cartridge shells for Famicom carts. Available directly from Muramasa's store. [Buy · Muramasa Entertainment](https://www.muramasaentertainment.com)
 
-- **MouseBiteLabs NES Cartridge PCBs** — Open-source cartridge PCBs for NES discrete logic mappers. Useful for repro builds and cart repairs. [GitHub](https://github.com/MouseBiteLabs/NES-Cartridges/tree/main/Discrete%20Logic%20Mappers)
+- **MouseBiteLabs NES Cartridge PCBs** — Open-source cartridge PCBs for NES discrete logic mappers. Useful for repro builds and cart repairs. [GitHub](https://github.com/MouseBiteLabs/NES-Cartridges/tree/main/Discrete%20Logic%20Mappers) → [Full details](/projects/mousebitelabs-nes-carts)
 
-- **FamiCoun** (jeffqchen) — Open-source Famicom front-expansion to NES/SNES adapter. Allows Famicom expansion audio accessories to connect through to NES hardware. [GitHub](https://github.com/jeffqchen/FamiCoun-Famicom-Front-Expansion-NES-SNES-Adapter)
+- **FamiCoun** (jeffqchen) — Open-source Famicom front-expansion to NES/SNES adapter. Allows Famicom expansion audio accessories to connect through to NES hardware. [GitHub](https://github.com/jeffqchen/FamiCoun-Famicom-Front-Expansion-NES-SNES-Adapter) → [Full details](/projects/famicoun)
 
 ---
 

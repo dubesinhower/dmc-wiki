@@ -24,7 +24,7 @@ description: Mods, repairs, and upgrades for the Sega Saturn.
 
 - **MODE** (GDEmu) — Covers both Dreamcast and Saturn. Community members noted preferring Fenrir specifically for Saturn while using MODE on Dreamcast. [Product site](https://gdemu.wordpress.com/mode/mode-info/)
 - **Satiator** (Dr. Abrasive) — An earlier Saturn ODE. A reflective piece from Dr. Abrasive "four years after its release" was shared via segasaturnshiro.com. See [article](https://www.segasaturnshiro.com/2025/01/10/dr-abrasive-reflects-on-satiator-ode-four-years-after-its-release/).
-- **Saturn Wuxi** (Helder / tzmwx) — Open-source Saturn ODE/CD Switcher project. Community member RayneX tracked this closely: "Saturn Wuxi is being uploaded to Git right now. PCBs are available, as well as the 3D print mounts and some photos." BOM availability was noted as a follow-up. See [GitHub (Helder1981)](https://github.com/Helder1981/SegaSaturn-Wuxi) and [fork (tzmwx)](https://github.com/tzmwx/SegaSaturn-Wuxi/tree/main).
+- **Saturn Wuxi** (Helder / tzmwx) — Open-source Saturn ODE/CD Switcher project. Community member RayneX tracked this closely: "Saturn Wuxi is being uploaded to Git right now. PCBs are available, as well as the 3D print mounts and some photos." BOM availability was noted as a follow-up. See [GitHub (Helder1981)](https://github.com/Helder1981/SegaSaturn-Wuxi) and [fork (tzmwx)](https://github.com/tzmwx/SegaSaturn-Wuxi/tree/main). → [Full details](/projects/saturn-wuxi)
 - Community noted that "saturnswitcher is unavailable" and Saturn Wuxi emerged as a replacement option.
 
 ## Common Repairs

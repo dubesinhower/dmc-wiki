@@ -51,6 +51,14 @@ export default defineConfig({
             { label: 'PlayStation', link: '/consoles/ps1' },
           ],
         },
+                {
+          label: 'Projects',
+          autogenerate: { directory: 'projects' },
+        },
+        {
+          label: 'Creators',
+          autogenerate: { directory: 'creators' },
+        },
         {
           label: 'Topics',
           items: [
