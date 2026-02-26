@@ -31,7 +31,11 @@ Krikzz makes EverDrive carts for most major systems. Community members consider 
 
 - **EverDrive 64 X7** — Nintendo 64 flash cart. Broad game compatibility; note that the long-reset overclock toggle can conflict with EverDrive menu behavior when paired with RetroGEM or N64Digital. [Buy · Krikzz](https://krikzz.com/our-products/cartridges/ed64x7.html)
 
-- **Turbo EverDrive** — PC-Engine / TurboGrafx-16 flash cart. [Buy · Krikzz](https://krikzz.com/our-products/cartridges/tbed.html)
+- **Turbo EverDrive v2** — PC-Engine / TurboGrafx-16 flash cart. SD-based, covers the full PC-Engine/TG-16 library. [Buy · Krikzz](https://krikzz.com/our-products/cartridges/tbed.html)
+
+- **Master EverDrive X7** — Sega Master System flash cart. SD-based, broad Master System library compatibility. [Buy · Krikzz](https://krikzz.com/our-products/cartridges/)
+
+- **EverDrive GG X7** — Sega Game Gear flash cart. SD-based, covers the Game Gear library. [Buy · Krikzz](https://krikzz.com/our-products/cartridges/)
 
 ---
 
@@ -55,7 +59,9 @@ Krikzz makes EverDrive carts for most major systems. Community members consider 
 - **Nintendo 64** — EverDrive 64 X7, 64drive
 - **Game Boy / GBC** — EverDrive GB X3 / X7
 - **Game Boy Advance** — EverDrive GBA X5 Mini
-- **PC-Engine / TG-16** — Turbo EverDrive, BeeX
+- **PC-Engine / TG-16** — Turbo EverDrive v2, BeeX
+- **Sega Master System** — Master EverDrive X7
+- **Game Gear** — EverDrive GG X7
 - **WonderSwan** — NileSwan (in development)
 - **Virtual Boy** — MR Cart (limited batches)
 - **Dreamcast / Saturn / Sega CD** — see [ODEs](/topics/ode)

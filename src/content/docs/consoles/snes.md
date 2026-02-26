@@ -21,7 +21,7 @@ description: Mods, repairs, and upgrades for the SNES (all revisions) and Super 
 
 ## Storage / Flash Carts
 
-- **SD2SNES / FXPAK Pro** — The long-running open-source flash cart for SNES. Supports most mappers including SA-1. Community member starlightk7 shared the [sd2snes Twitter account](https://twitter.com/sd2snes) for updates.
+- **FXPak Pro (sd2snes)** (Krikzz / ikari_01) — The long-running open-source FPGA-based flash cart for SNES and Super Famicom. Supports enhancement chips that most other carts cannot emulate — SA-1, Super FX, DSP, etc. Active firmware development continues. [Buy · Krikzz](https://krikzz.com/our-products/cartridges/fxpak-pro.html) · [GitHub](https://github.com/sd2snes/sd2snes)
 - **Epilogue GB Operator (SNES edition)** — Epilogue marketed a limited-edition SNES cartridge reader. JesusBurnsNeon noted the marketing approach in community discussion: "preorders starting Tuesday for $60."
 - **SA-1 Root** (VitorVilela7) — Project for accelerating SNES games using the SA-1 co-processor. Relevant for homebrew and repro builds. See [GitHub](https://github.com/VitorVilela7/SA1-Root).
 
@@ -42,7 +42,11 @@ description: Mods, repairs, and upgrades for the SNES (all revisions) and Super 
 
 - **SNES-CON** (Rondo Products) — Reverse polarity center-pin adapter for SNES. Available from [rondoproducts.com](https://rondoproducts.com/products/reverse-polarity-center-pin-adapter).
 - **SNES Jr. CPU Repro PCB** (qwertymodo) — An open-source SNES Jr. CPU board reproduction. Shared by starlightk7: "Qwertymodo has released his SNES Jr repro." See [GitHub](https://github.com/qwertymodo/kicad-snn-cpu-01).
-- **OpenSFC** — Community member starlightk7 noted the "first SNES style OpenSFC unit" getting close to release. A FPGA-based SNES hardware alternative.
+---
+
+## FPGA Hardware
+
+- **OpenSFC** (starlightk7) — Open-source FPGA-based Super Famicom/SNES console. Aims to be a fully open hardware alternative to original SFC/SNES hardware, including support for standard mods like NESRGB-style installs. Pre-release as of early 2026; first units were approaching completion. [Buy when available · 1Up Restorations](https://1uprestorations.com) · [RetroUpgrades](https://retroupgrades.com)
 
 ## Controllers
 

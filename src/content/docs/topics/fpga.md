@@ -48,6 +48,8 @@ Analogue builds FPGA-based consumer hardware with original-cartridge compatibili
 
 ## Other FPGA Platforms
 
+- **OpenSFC** (starlightk7) — Open-source FPGA-based Super Famicom/SNES console. Aims to be a fully open hardware alternative to original SFC/SNES hardware, compatible with standard SNES mods. Pre-release as of early 2026; first units were approaching completion. Available through [1Up Restorations](https://1uprestorations.com) and [RetroUpgrades](https://retroupgrades.com).
+
 - **Superstation** — A long-awaited community FPGA project. Some members who purchased it remain skeptical about delivery.
 
 - **Chromatic** — FPGA handheld mentioned by community members. Available secondhand for around $80; limited community enthusiasm.
@@ -59,7 +61,7 @@ Analogue builds FPGA-based consumer hardware with original-cartridge compatibili
 MiSTer has cores for most retro systems. Analogue devices are console-specific:
 
 - **NES / Famicom** — MiSTer core
-- **SNES / Super Famicom** — MiSTer core, Analogue Super Nt (legacy, discontinued)
+- **SNES / Super Famicom** — MiSTer core, Analogue Super Nt (legacy, discontinued), OpenSFC (open source, pre-release)
 - **Sega Genesis / Mega Drive** — MiSTer core, Analogue Mega Sg (legacy, discontinued)
 - **Nintendo 64** — MiSTer core, Analogue 3D
 - **Game Boy / GBC / GBA** — MiSTer core, Analogue Pocket

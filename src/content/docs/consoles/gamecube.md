@@ -24,6 +24,8 @@ description: Mods, repairs, and upgrades for the Nintendo GameCube.
 
 ## Controllers
 
+- **GC Ultimate 2** (Mitch HHL) — Open-source, repair-friendly controller with hall effect sticks and triggers, gyro, analog triggers, and native Steam support. Designed for GameCube and N64 (and Nintendo Switch). Crowdfunding as of early 2026; ~$60–80. [gcultimate.com](https://gcultimate.com)
+
 - **BlueRetro HW2 GameCube** (Arthrimus) — Internal Bluetooth wireless controller board designed for the GameCube. Open-source PCB. See [GitHub](https://github.com/Arthrimus/BlueRetro-HW2-GameCube).
 - **USB to GameCube Adapter** (Robert Dale Smith) — Open-source USB to GameCube controller adapter. Covered by RetroRGB; see [retrorgb.com](https://www.retrorgb.com/open-source-usb-to-gamecube-adapter-from-robert-dale-smith.html).
 - **GameCube Controller Connector with Breakout PCB** (Electron Shepherd) — PCB-mounted GameCube connector for controller port builds. Available from [electron-shepherd.com](https://electron-shepherd.com/collections/all/products/gamecube-connector-w-breakout-pcb).

@@ -23,6 +23,12 @@ description: Mods, repairs, and upgrades for the NES (North American front-loade
 
 ---
 
+## Audio Mods
+
+- **EPSM** (Perkka / Muramasa) — FM audio expansion board for NES and Famicom. Adds YM2149 and YM2203 sound chips via the NES expansion port, enabling FM synthesis audio playback on original hardware. Open-source project. [GitHub](https://github.com/perkka/epsm)
+
+---
+
 ## Storage / Flash Carts
 
 - **EverDrive N8 Pro** (Krikzz) — SD-based flash cart for NES and Famicom. Supports most mappers including expansion audio (VRC6, FDS, Namco 163, etc.). Community's go-to recommendation for a no-compromise NES flash cart. [Buy · Krikzz](https://krikzz.com/our-products/cartridges/en8.html)
