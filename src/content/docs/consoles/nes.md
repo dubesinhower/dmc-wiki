@@ -67,47 +67,46 @@ description: Mods, repairs, and upgrades for the NES (North American front-loade
 
 ---
 
-## Community Notes
+## Display — RGB Mods
 
-- NESRGB compatibility with OpenTendo was specifically confirmed in Discord discussion — community member Redherring32 noted that NESRGB and similar mods "not working isn't an issue with OpenTendo."
-- Community member Helder noted receiving a new NES EverDrive and testing the new firmware.
-- The FDS2NES adapter was shared as a way to get FDS content onto standard NES cart hardware without a physical Famicom Disk System.
-- Community member @infidelity_nes on X is a noted NES modding content creator.
-
-## Adapters
-
-<!-- DB:START type=adapter console=nes -->
-- **[FamiCoun](https://github.com/jeffqchen/FamiCoun-Famicom-Front-Expansion-NES-SNES-Adapter)** by [jeffqchen](https://x.com/jeffqchen)
-  Open source adapter connecting the Famicom's front expansion port to NES and SNES hardware. Allows Famicom expansion audio accessories to work through to NES hardware. Enables expansion audio on NES hardware without modifying the console itself.
+<!-- DB:START section="Display — RGB Mods" console=nes -->
+- **[NESRGB](https://etim.net.au/nesrgb/)** by [Tim Worthington](https://etim.net.au)
+  Internal RGB mod kit for the NES and Famicom. Installs internally and adds an RGB header. Requires a donor PPU chip. Community standard for NES RGB for many years. The long-standing community-standard NES RGB solution. Widely documented and supported. ~$40–60.
 <!-- DB:END -->
 
-## Flash Carts
+## Audio Mods
 
-<!-- DB:START type=flash_cart console=nes -->
+<!-- DB:START section="Audio Mods" console=nes -->
+- **[EPSM](https://github.com/perkka/epsm)** by [Muramasa](https://x.com/muramasa_ninja) / [Perkka](https://github.com/perkka)
+  FM audio expansion board for NES/Famicom. Adds YM2149 and YM2203 sound chips to the NES expansion port, enabling FM synthesis audio. Community members including Muramasa are contributing connector and layout improvements. Brings FM synthesis audio to NES/Famicom hardware — the kind of expansion audio that Famicom Disk System and various Japanese mappers explored. Active open source development with community contributions.
+<!-- DB:END -->
+
+## Storage — Flash Carts
+
+<!-- DB:START section="Storage — Flash Carts" console=nes -->
 - **[EverDrive N8 Pro](https://krikzz.com/our-products/cartridges/)** by [Krikzz](https://x.com/krikzz)
   SD-based flash cart for NES and Famicom. Supports most mappers including expansion audio (VRC6, FDS, Namco 163, MMC5). The community standard NES flash cart. No-compromise NES flash cart — expansion audio support is the key differentiator over cheaper alternatives. $75.
 <!-- DB:END -->
 
-## Hardware Mods
+## PCB & Reproduction
 
-<!-- DB:START type=hardware_mod console=nes -->
-- **[EPSM](https://github.com/perkka/epsm)** by [Muramasa](https://x.com/muramasa_ninja) / [Perkka](https://github.com/perkka)
-  FM audio expansion board for NES/Famicom. Adds YM2149 and YM2203 sound chips to the NES expansion port, enabling FM synthesis audio. Community members including Muramasa are contributing connector and layout improvements. Brings FM synthesis audio to NES/Famicom hardware — the kind of expansion audio that Famicom Disk System and various Japanese mappers explored. Active open source development with community contributions.
-- **[NESRGB](https://etim.net.au/nesrgb/)** by [Tim Worthington](https://etim.net.au)
-  Internal RGB mod kit for the NES and Famicom. Installs internally and adds an RGB header. Requires a donor PPU chip. Community standard for NES RGB for many years. The long-standing community-standard NES RGB solution. Widely documented and supported. ~$40–60.
-- **[POW Block AV/Power Board](https://ko-fi.com/s/a42a9b282f)** by [zaxour](https://x.com/zaxour)
-  Replacement AV and power board for the NES front-loader. Addresses aging components on the original board. Solid drop-in upgrade for NES front-loaders with failing AV or power circuits. Open source.
-<!-- DB:END -->
-
-## PCB / Reproduction Boards
-
-<!-- DB:START type=pcb console=nes -->
+<!-- DB:START section="PCB & Reproduction" console=nes -->
 - **[MouseBiteLabs NES Cartridge PCBs](https://github.com/MouseBiteLabs/NES-Cartridges)** by [MouseBiteLabs](https://bsky.app/profile/mousebitelabs.bsky.social)
   Open source NES cartridge PCBs for discrete logic mappers. Free to fabricate from Gerbers. Essential for community repro builders and cart repair. Fully open source, well documented.
 - **[OpenTendo](https://github.com/Redherring32/OpenTendo)** by [Redherring32](https://x.com/redherring32)
   Fully open source reproduction of the NES front-loader main board (NES-CPU-07). Designed to accept standard NES mods including NESRGB. Compatible with original NES shells and cartridge connectors. Enables NES hardware preservation without sourcing failing original boards. One of the few fully open source console main board reproductions. NESRGB compatibility confirmed by the community.
 <!-- DB:END -->
 
----
+## Accessories
 
-*This page was generated from community discussion in the Dubesinhower Modding Community Discord. Last updated: 2026-02-25.*
+<!-- DB:START section="Accessories" console=nes -->
+- **[FamiCoun](https://github.com/jeffqchen/FamiCoun-Famicom-Front-Expansion-NES-SNES-Adapter)** by [jeffqchen](https://x.com/jeffqchen)
+  Open source adapter connecting the Famicom's front expansion port to NES and SNES hardware. Allows Famicom expansion audio accessories to work through to NES hardware. Enables expansion audio on NES hardware without modifying the console itself.
+<!-- DB:END -->
+
+## Repairs & Power
+
+<!-- DB:START section="Repairs & Power" console=nes -->
+- **[POW Block AV/Power Board](https://ko-fi.com/s/a42a9b282f)** by [zaxour](https://x.com/zaxour)
+  Replacement AV and power board for the NES front-loader. Addresses aging components on the original board. Solid drop-in upgrade for NES front-loaders with failing AV or power circuits. Open source.
+<!-- DB:END -->

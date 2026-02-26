@@ -9,9 +9,9 @@ sidebar:
 
 The Sega Master System has an active modding community. Community-tracked projects include flash carts.
 
-## Flash Carts
+## Storage — Flash Carts
 
-<!-- DB:START type=flash_cart console=master-system -->
+<!-- DB:START section="Storage — Flash Carts" console=master-system -->
 - **[Master EverDrive X7](https://krikzz.com/our-products/cartridges/)** by [Krikzz](https://x.com/krikzz)
   SD-based flash cart for Sega Master System. The go-to flash cart for Master System owners. $65.
 <!-- DB:END -->

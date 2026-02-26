@@ -55,40 +55,16 @@ description: Mods, repairs, and upgrades for the original PlayStation (SCPH-seri
 - **8BitDo Retro Receiver for PS1/PS2** — Dongle-style wireless receiver allowing modern 8BitDo and compatible controllers to work on PS1 hardware. [Buy · 8BitDo](https://www.8bitdo.com/retro-receiver-playstation/)
 - **Defender Pro Series** (Kickstarter) — Wireless controllers for PS1, PS2, and PS3 in development. Community linked the campaign.
 
-## Community Notes
+## Display — HDMI Mods
 
-- Community member Tubo expressed interest in seeing an Analogue-style PS1 FPGA console: "I keep thinking PS1 will be the next Analogue."
-- RayneX noted the flexibility of the RetroGEM approach for PS1 HDMI: "Basically need a breakaway cable. Kind of like how I use a MiniHDMI to HDMI cable for the retroGEMs."
-- Community member obieone noted completing RetroGEM installs on PS1, N64, and GameCube, with a failed attempt on PS2.
-- A homebrew PS1 game about "Minnesota, Rebellion, and Aliens" was shared and discussed in community as an example of ongoing PS1 homebrew activity.
-- PSX-Place was linked by Vuscav as a community resource for PS1/PS2 hacking and homebrew news.
-- A new Yule Log 2 PS1 demo by Dennis (pointerfunction) was shared and noted as an active homebrew example.
-
-## Resources
-
-- [PSIO (Cybdyn Systems)](https://psio.cybdyn-systems.com.au)
-- [MemCard PRO for PS1 (Rondo Products)](https://rondoproducts.com/products/memcard-pro)
-- [Delta PSnee QSB](https://delta-island.com/index.php/en/tutorials/playstation-delta-psnee-qsb)
-- [tehUberChip (GitHub)](https://github.com/L10N37/tehUberChip_Another_PSX_Modchip)
-- [PSIO in PSOne (GitHub)](https://github.com/tzmwx/PSIO-IN-PSONE)
-- [Project Medusa BlueRetro](https://www.willsconsolemodifications.co.uk)
-- [RetroGEM at Stone Age Gamer](https://stoneagegamer.com/retro-gem-universal-hdmi-upscaler-kit-for-ps1-ps2-n64-pixelfx.html)
-- [PSX-Place](https://www.psx-place.com)
-
-## Accessories
-
-<!-- DB:START type=accessory console=ps1 -->
-- **[MemCard PRO](https://castlemaniagames.com)** by [8BitMods](https://x.com/8bitmods)
-  Digital memory card replacement for PS1 (and PS2) with game-aware auto-switching. Stores all saves digitally on SD card, swaps profiles per game automatically. The community standard digital memory card for PS1. Available from Rondo Products and CastleMania. ~$45.
-<!-- DB:END -->
-
-## Hardware Mods
-
-<!-- DB:START type=hardware_mod console=ps1 -->
+<!-- DB:START section="Display — HDMI Mods" console=ps1 -->
 - **[RetroGEM](https://pixelfx.co)** by [PixelFX](https://pixelfx.co)
   Universal internal HDMI mod kit covering PS1, PS2, N64, GameCube, Wii, and more. FPGA-based, includes OSD and GameID integration. Active firmware development. Integrates tightly with the PixelFX Morph 4K for per-game profiles. The community go-to for internal HDMI installs across multiple platforms. Single ecosystem covers most of the popular consoles. GEM + Morph integration is the most capable HDMI + scaler pairing currently available. $100–$150. [Buy](https://stoneagegamer.com/retro-gem-universal-hdmi-upscaler-kit-for-ps1-ps2-n64-pixelfx.html)
 <!-- DB:END -->
 
----
+## Accessories
 
-*This page was generated from community discussion in the DMC Discord. Last updated: 2026-02-25.*
+<!-- DB:START section="Accessories" console=ps1 -->
+- **[MemCard PRO](https://castlemaniagames.com)** by [8BitMods](https://x.com/8bitmods)
+  Digital memory card replacement for PS1 (and PS2) with game-aware auto-switching. Stores all saves digitally on SD card, swaps profiles per game automatically. The community standard digital memory card for PS1. Available from Rondo Products and CastleMania. ~$45.
+<!-- DB:END -->

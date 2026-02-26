@@ -9,9 +9,9 @@ sidebar:
 
 The Game Boy Color has an active modding community. Community-tracked projects include flash carts.
 
-## Flash Carts
+## Storage — Flash Carts
 
-<!-- DB:START type=flash_cart console=gbc -->
+<!-- DB:START section="Storage — Flash Carts" console=gbc -->
 - **[EverDrive GB X3 / X7](https://krikzz.com/our-products/cartridges/)** by [Krikzz](https://x.com/krikzz)
   SD-based flash carts for Game Boy and Game Boy Color. X3 is the budget tier; X7 adds real-time clock support and other extras. The standard flash cart for GB/GBC. X3 is a solid budget pick; X7 is for completionists. $45–$80.
 <!-- DB:END -->

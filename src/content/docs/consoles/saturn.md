@@ -51,30 +51,9 @@ description: Mods, repairs, and upgrades for the Sega Saturn.
 - **8BitDo DIY controller mod for Saturn** — Community member RayneX mentioned a "button combo fix on 8BitDo DIY for Castlevania on Saturn," referencing active firmware/button mapping development.
 - **Retro-Bit Wireless Bluetooth Controllers** — Official Sega-licensed wireless controllers for Saturn. Available in 6-button and 8-button configurations. [Buy · Retro-Bit](https://retro-bit.com/sega-collaboration)
 
-## Community Notes
+## Storage — ODEs
 
-- The Saturn sees consistent community engagement: community member bahamutfan is among the most active contributors of Saturn links, regularly sharing [@playsegasaturn](https://twitter.com/playsegasaturn) (SEGA SATURN, SHIRO!) X posts on homebrew, news, and modding.
-- Community member Vuscav noted that the Saturn can read Sega CD and Saturn discs via ongoing emulator/ODE work, with a demo shared in 2024.
-- The SAROO firmware 0.9 update (Feb 2026) was immediately flagged in the community by CustomRider — suggesting active monitoring of ODE firmware cycles.
-- Mr. Bones was cited by Vuscav as justification for the Saturn's existence ("Mr Bones alone justifies the Saturn's creation").
-- Saturn homebrew remains active: Micro Motor Mayhem and a Shenmue-tribute project were both linked in community resources from RetroRGB.
-
-## Resources
-
-- [SAROO Firmware News (Sega Saturn Shiro)](https://www.segasaturnshiro.com)
-- [Saturn Wuxi (GitHub – Helder1981)](https://github.com/Helder1981/SegaSaturn-Wuxi)
-- [Satiator Retrospective (Sega Saturn Shiro)](https://www.segasaturnshiro.com/2025/01/10/dr-abrasive-reflects-on-satiator-ode-four-years-after-its-release/)
-- [Saturn 10-Pin DIN Breakout (GitHub – zaxour)](https://github.com/zaxour/Saturn_10Pin_DIN_Breakout)
-- [SEGA SATURN, SHIRO! (@playsegasaturn)](https://twitter.com/playsegasaturn)
-- [New Saturn Homebrew – Micro Motor Mayhem (RetroRGB)](https://www.retrorgb.com/new-saturn-homebrew-game-micro-motor-mayhem.html)
-
-## ODE / Optical Drive Emulators
-
-<!-- DB:START type=ode console=saturn -->
+<!-- DB:START section="Storage — ODEs" console=saturn -->
 - **[Saturn Wuxi](https://github.com/Helder1981/SegaSaturn-Wuxi)** by [Helder](https://github.com/Helder1981)
   Open source Saturn ODE and CD switcher. PCBs and 3D print mounts available. Emerged as an open source replacement for the discontinued Saturn Switcher. Fills the gap left by SaturnSwitcher going unavailable. Fully open source, community-buildable.
 <!-- DB:END -->
-
----
-
-*This page was generated from community discussion in the DMC Discord. Last updated: 2026-02-25.*

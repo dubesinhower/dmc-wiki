@@ -55,48 +55,23 @@ description: Mods, repairs, and upgrades for the Nintendo GameCube.
 - **3D-printed shells and enclosures** — Community member kak-hoofd mentioned using an Anycubic M3 Max for printing and verifying a GameCube model for Muramasa and Castlemania. Custom shell colors and modifications are discussed on BitBuilt.
 - **Project Renaissance GameCube Portable** — A portable GameCube build project tracked on BitBuilt forums. Shared by GabeShack: see [BitBuilt thread](https://bitbuilt.net/forums/index.php?threads/project-renaissance-a-modern-gamecube-portable.6922/).
 
-## Community Notes
+## Display — HDMI Mods
 
-- The FlippyDrive is the most actively discussed GameCube ODE in the community, with multiple members tracking its CrowdSupply campaign and firmware updates.
-- Community member GabeShack and RazorX discussed printing rear IO panels for RetroGEM GameCube builds; RazorX mentioned printing one in orange for a main GameCube build.
-- Community member kak-hoofd noted having a GameCube ODE "still on the list for three years" — acknowledging the common experience of queued projects.
-- GabeShack linked a GameCube making a "surprise return" news item (July 2025), reflecting community interest in Nintendo revisiting the platform.
-- The GameCube's compatibility with the Game Boy Player and Wii dev hardware history (Wii U still has GameCube controller lines) were noted in community discussion.
-- The Pimp My Mini project (Wii Mini hacking) and its relationship to GameCube controller ports was discussed.
-- A GameCube modified to run PowerPC Windows NT and Doom was shared from Tom's Hardware as a community curiosity.
-
-## Resources
-
-- [FlippyDrive (CrowdSupply)](https://www.crowdsupply.com/team-offbroadway/flippydrive)
-- [SD2SP2 (GitHub – Extrems)](https://github.com/Extrems/SD2SP2)
-- [SD2SP2-Pro (GitHub – silverstee1)](https://github.com/silverstee1/SD2SP2-Pro)
-- [BlueRetro HW2 GameCube (GitHub – Arthrimus)](https://github.com/Arthrimus/BlueRetro-HW2-GameCube)
-- [GCNET (NeoStormer)](https://gcnet.neostormer.com)
-- [RetroGEM Rear IO Panels – BlueShell3D (Printables)](https://www.printables.com/model/1244072-gamecube-replacement-rear-io-panels-for-retrogem)
-- [Project Renaissance GameCube Portable (BitBuilt)](https://bitbuilt.net/forums/index.php?threads/project-renaissance-a-modern-gamecube-portable.6922/)
-- [Open-Source USB to GC Adapter (RetroRGB)](https://www.retrorgb.com/open-source-usb-to-gamecube-adapter-from-robert-dale-smith.html)
-
-## 3D-Printed Parts
-
-<!-- DB:START type=3d_print console=gamecube -->
-- **[GameCube Rear IO Panels (RetroGEM / GC Dual)](https://www.printables.com/model/1244072-gamecube-replacement-rear-io-panels-for-retrogem)** by [BlueShell3D](https://x.com/BlueShell3D)
-  3D-printed replacement rear IO panels for the GameCube, with cutouts specifically designed for RetroGEM and GC Dual HDMI installs. Variants include combined HDMI + Ethernet cutouts for FlippyDrive builds. Solves the cosmetic problem of HDMI mods requiring holes in the GameCube shell — these make the build look intentional and clean. Open source.
-<!-- DB:END -->
-
-## Controllers
-
-<!-- DB:START type=controller console=gamecube -->
-- **[GC Ultimate 2](https://gcultimate.com)** by [Mitch HHL](https://x.com/MitchHHL)
-  Open source, repair-friendly controller with hall effect sticks and triggers, gyro, analog triggers, and native Steam support. Compatible with N64, GameCube, Switch, Switch 2, and PC. Addresses the N64/GameCube controller reliability problem with modern internals. Fully open source firmware. Repair-friendly design (iFixit collab). Active Kickstarter as of February 2026. ~$60–80.
-<!-- DB:END -->
-
-## Hardware Mods
-
-<!-- DB:START type=hardware_mod console=gamecube -->
+<!-- DB:START section="Display — HDMI Mods" console=gamecube -->
 - **[RetroGEM](https://pixelfx.co)** by [PixelFX](https://pixelfx.co)
   Universal internal HDMI mod kit covering PS1, PS2, N64, GameCube, Wii, and more. FPGA-based, includes OSD and GameID integration. Active firmware development. Integrates tightly with the PixelFX Morph 4K for per-game profiles. The community go-to for internal HDMI installs across multiple platforms. Single ecosystem covers most of the popular consoles. GEM + Morph integration is the most capable HDMI + scaler pairing currently available. $100–$150. [Buy](https://stoneagegamer.com/retro-gem-universal-hdmi-upscaler-kit-for-ps1-ps2-n64-pixelfx.html)
 <!-- DB:END -->
 
----
+## Controllers
 
-*This page was generated from community discussion in the DMC Discord. Last updated: 2026-02-25.*
+<!-- DB:START section="Controllers" console=gamecube -->
+- **[GC Ultimate 2](https://gcultimate.com)** by [Mitch HHL](https://x.com/MitchHHL)
+  Open source, repair-friendly controller with hall effect sticks and triggers, gyro, analog triggers, and native Steam support. Compatible with N64, GameCube, Switch, Switch 2, and PC. Addresses the N64/GameCube controller reliability problem with modern internals. Fully open source firmware. Repair-friendly design (iFixit collab). Active Kickstarter as of February 2026. ~$60–80.
+<!-- DB:END -->
+
+## Shell & Cosmetics
+
+<!-- DB:START section="Shell & Cosmetics" console=gamecube -->
+- **[GameCube Rear IO Panels (RetroGEM / GC Dual)](https://www.printables.com/model/1244072-gamecube-replacement-rear-io-panels-for-retrogem)** by [BlueShell3D](https://x.com/BlueShell3D)
+  3D-printed replacement rear IO panels for the GameCube, with cutouts specifically designed for RetroGEM and GC Dual HDMI installs. Variants include combined HDMI + Ethernet cutouts for FlippyDrive builds. Solves the cosmetic problem of HDMI mods requiring holes in the GameCube shell — these make the build look intentional and clean. Open source.
+<!-- DB:END -->

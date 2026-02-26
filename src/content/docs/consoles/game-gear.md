@@ -9,9 +9,9 @@ sidebar:
 
 The Sega Game Gear has an active modding community. Community-tracked projects include flash carts.
 
-## Flash Carts
+## Storage — Flash Carts
 
-<!-- DB:START type=flash_cart console=game-gear -->
+<!-- DB:START section="Storage — Flash Carts" console=game-gear -->
 - **[EverDrive GG X7](https://krikzz.com/our-products/cartridges/)** by [Krikzz](https://x.com/krikzz)
   SD-based flash cart for the Sega Game Gear. Enables the full Game Gear library on original hardware. $65.
 <!-- DB:END -->

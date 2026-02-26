@@ -46,41 +46,18 @@ description: Mods, repairs, and upgrades for the Sega Genesis (all models) and M
 - **pxlmod v1.3 Controller Port Adapter Kit** — Adapter kit for modifying Genesis controller ports. Available from Console5.
 - **3D-printed components** — Community members discussed 3D printing replacements for 32X and Genesis shell components.
 
-## Community Notes
+## Display — RGB Mods
 
-- Model 2 is the revision most discussed in the community, with multiple members expressing preference for it over Model 1 or Model 3.
-- The Model 3 is considered the least-favored by community members ("GabeShack" noted having a Genesis 3 VA2; Tubo called it "the dumbest looking variant").
-- The 32X add-on sees active discussion, particularly around Neptune builds (integrating 32X into a single Genesis shell). Community member Reero noted buying a Genesis Model 2 + 32X with a potential Neptune build in mind.
-- Community member RGBeter is actively developing open-source Genesis video boards; his Twitter/X handle is [@RGBeter32X](https://twitter.com/RGBeter32X).
-- The M30 controller (8BitDo) was specifically called out by community member Tim as his choice for Genesis use.
-- Community members noted that an official Sega Genesis Control Pad exists for Nintendo Switch, and Retro-Bit makes a 2.4GHz wireless 8-button Genesis controller.
-- Earthion (a new Mega Drive release) was discussed in the community as a notable new commercial game for the platform.
+<!-- DB:START section="Display — RGB Mods" console=genesis -->
+- **[4BP Quadruple Bypass](https://ko-fi.com/s/51d6725bbe)** by [zaxour](https://x.com/zaxour)
+  Extended RGB bypass mod for Sega Genesis/Mega Drive supporting additional signal paths beyond the standard Triple Bypass. DIY kit. The most comprehensive Genesis RGB bypass available, from a well-known open source developer.
+<!-- DB:END -->
 
-## Resources
+## Storage — Flash Carts
 
-- [RetroRGB – Genesis/Mega Drive](https://www.retrorgb.com/segagenesismegadrive.html) — video output overview and mod guides
-- [4BP Quadruple Bypass (zaxour Ko-fi)](https://ko-fi.com/s/51d6725bbe)
-- [Triple Bypass v2 (Stone Age Gamer)](https://stoneagegamer.com/sega-genesis-mega-drive-triple-bypass-modification-version-2.html)
-- [TMSS Disable (GitHub)](https://github.com/consolesunleashed/sega-mega-drive-tmss-disable)
-- [Retro Game Restore – Mega Drive 2 Shells](https://retrogamerestore.com/store/md2shl/)
-- [RGBeter32X on Twitter](https://twitter.com/RGBeter32X)
-
-## Flash Carts
-
-<!-- DB:START type=flash_cart console=genesis -->
+<!-- DB:START section="Storage — Flash Carts" console=genesis -->
 - **[Mega EverDrive Pro](https://krikzz.com/our-products/cartridges/)** by [Krikzz](https://x.com/krikzz)
   Genesis flash cart with Sega CD game emulation built in. Note: not compatible with ODE-based Sega CD implementations (MODE, GDEMU). Krikzz confirmed fixing this would require a ground-up rewrite. The only flash cart that combines Genesis + Sega CD in one cart — but the ODE incompatibility is a known hard limitation. $100.
 - **[Mega EverDrive X3 / X5 / X7](https://krikzz.com/our-products/cartridges/)** by [Krikzz](https://x.com/krikzz)
   SD-based flash carts for Sega Genesis/Mega Drive. X3/X5 cover the full Genesis and 32X library (~$40–60). X7 adds more storage and speed. None support Sega CD. X5 is the budget entry point covering the entire Genesis + 32X library. Best value in the EverDrive lineup. $40–$80.
 <!-- DB:END -->
-
-## Hardware Mods
-
-<!-- DB:START type=hardware_mod console=genesis -->
-- **[4BP Quadruple Bypass](https://ko-fi.com/s/51d6725bbe)** by [zaxour](https://x.com/zaxour)
-  Extended RGB bypass mod for Sega Genesis/Mega Drive supporting additional signal paths beyond the standard Triple Bypass. DIY kit. The most comprehensive Genesis RGB bypass available, from a well-known open source developer.
-<!-- DB:END -->
-
----
-
-*This page was generated from community discussion in the DMC Discord. Last updated: 2026-02-25.*

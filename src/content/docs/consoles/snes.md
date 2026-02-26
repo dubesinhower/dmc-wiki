@@ -54,57 +54,32 @@ description: Mods, repairs, and upgrades for the SNES (all revisions) and Super 
 - **IBlueControlMod** (Handheld Legend) — Internal Bluetooth wireless controller adapter for SNES. See [handheldlegend.com](https://handheldlegend.com/products/snes-internal-bluetooth-wireless-controller-adapter).
 - **Brook Wingman SNES Converter** — Allows modern controllers to be used on SNES hardware. Available from Amazon.
 
-## Community Notes
+## Display — RGB Mods
 
-- The SNES revision question (1-chip vs 2-chip) is actively discussed; community member Gaw stated "best bet for snes is a new FPGA console" in context of hardware reliability.
-- Community member starlightk7 is actively working on SNES-adjacent hardware projects including OpenSFC and the SNES Jr. CPU repro.
-- JesusBurnsNeon expressed hope for a "SNES GEM" (RetroGEM/PixelFX HDMI for SNES), linking it to a theoretical future Saturn GEM.
-- Community member zwenergy noted the difficulty of SNES digital video: "Like 15-bit color + you also need to listen to the data bus in order to sniff for brightness setting commands."
-- NESMaker (now renamed) was noted as announcing SNES development tooling ([timeextension.com](https://www.timeextension.com/news/2024/08/homebrew-tool-nesmaker-changes-name-announces-snes-develo)).
-- A FamiCoun Famicom-to-NES/SNES front expansion adapter (jeffqchen) was shared by Dubesinhower for adapter-related discussion.
-- The Mesen2 multi-system emulator (SourMesen) was shared as a reference emulator for SNES accuracy.
-
-## Resources
-
-- [SNES RGB Bypass (GitHub)](https://github.com/borti4938/SNES_RGB_Bypass)
-- [SNES Version Compare (RetroRGB)](https://www.retrorgb.com/snesversioncompare.html)
-- [Voultar – SNES Edge Enhancer](https://voultar.com)
-- [SA1-Root (GitHub)](https://github.com/VitorVilela7/SA1-Root)
-- [SNES Jr. CPU Repro (GitHub)](https://github.com/qwertymodo/kicad-snn-cpu-01)
-- [SuperPico Digital (GitHub)](https://github.com/fliperama86/superpico-digital)
-- [Mesen2 Emulator (GitHub)](https://github.com/SourMesen/Mesen2)
-- [IBlueControlMod (Handheld Legend)](https://handheldlegend.com/products/snes-internal-bluetooth-wireless-controller-adapter)
-
-## Adapters
-
-<!-- DB:START type=adapter console=snes -->
-- **[FamiCoun](https://github.com/jeffqchen/FamiCoun-Famicom-Front-Expansion-NES-SNES-Adapter)** by [jeffqchen](https://x.com/jeffqchen)
-  Open source adapter connecting the Famicom's front expansion port to NES and SNES hardware. Allows Famicom expansion audio accessories to work through to NES hardware. Enables expansion audio on NES hardware without modifying the console itself.
-<!-- DB:END -->
-
-## Flash Carts
-
-<!-- DB:START type=flash_cart console=snes -->
-- **[FXPak Pro (sd2snes)](https://github.com/sd2snes/sd2snes)** by [Krikzz](https://x.com/krikzz) / [ikari_01](https://github.com/ikari-pl)
-  FPGA-based flash cart for SNES and Super Famicom. Supports enhancement chips that other carts cannot emulate — SA-1, Super FX, DSP series, MSU-1, and more. Open source firmware, active development. Manufactured by Krikzz; designed by ikari_01. The only SNES flash cart that handles enhancement chips. Essential for playing SA-1 games (Super Mario RPG, Kirby Super Star) and Super FX games (Star Fox, Doom) from SD card. ~$185. [Buy](https://krikzz.com/our-products/cartridges/fxpak-pro.html)
-<!-- DB:END -->
-
-## FPGA Hardware
-
-<!-- DB:START type=fpga console=snes -->
-- **[OpenSFC](https://1uprestorations.com)** by [starlightk7](https://x.com/starlightk7)
-  An open source FPGA-based Super Famicom/SNES console. Aims to be a fully open hardware alternative to original SFC/SNES hardware. One of the very few attempts at a fully open source FPGA SNES. Community interest is high given SNES hardware reliability concerns (aging PPU chips). Controllers launched first as early access via Ko-Fi in early 2026.
-<!-- DB:END -->
-
-## Hardware Mods
-
-<!-- DB:START type=hardware_mod console=snes -->
+<!-- DB:START section="Display — RGB Mods" console=snes -->
 - **SNES Edge Enhancer** by [Voultar](https://x.com/Voultar)
   A DIY SNES video enhancement kit that sharpens the SNES video output by boosting edge definition. Sold as a kit; install is streamed by Voultar. Note: community investigation ongoing (as of Feb 2026) into whether it can stress the PPU2 analog DAC under certain conditions. A popular and widely discussed SNES video mod from one of the most prominent SNES modders in the community. The ongoing PPU2 concern is active community discussion.
 - **[SNES RGB Bypass](https://github.com/borti4938/SNES_RGB_Bypass)** by [borti4938](https://github.com/borti4938)
   Open source internal RGB bypass mod for SNES/Super Famicom. Addresses the video noise present in stock output by bypassing the onboard video encoder. The go-to open source SNES RGB mod. Widely installed, well documented, and free to build.
 <!-- DB:END -->
 
----
+## Display — FPGA
 
-*This page was generated from community discussion in the DMC Discord. Last updated: 2026-02-25.*
+<!-- DB:START section="Display — FPGA" console=snes -->
+- **[OpenSFC](https://1uprestorations.com)** by [starlightk7](https://x.com/starlightk7)
+  An open source FPGA-based Super Famicom/SNES console. Aims to be a fully open hardware alternative to original SFC/SNES hardware. One of the very few attempts at a fully open source FPGA SNES. Community interest is high given SNES hardware reliability concerns (aging PPU chips). Controllers launched first as early access via Ko-Fi in early 2026.
+<!-- DB:END -->
+
+## Storage — Flash Carts
+
+<!-- DB:START section="Storage — Flash Carts" console=snes -->
+- **[FXPak Pro (sd2snes)](https://github.com/sd2snes/sd2snes)** by [Krikzz](https://x.com/krikzz) / [ikari_01](https://github.com/ikari-pl)
+  FPGA-based flash cart for SNES and Super Famicom. Supports enhancement chips that other carts cannot emulate — SA-1, Super FX, DSP series, MSU-1, and more. Open source firmware, active development. Manufactured by Krikzz; designed by ikari_01. The only SNES flash cart that handles enhancement chips. Essential for playing SA-1 games (Super Mario RPG, Kirby Super Star) and Super FX games (Star Fox, Doom) from SD card. ~$185. [Buy](https://krikzz.com/our-products/cartridges/fxpak-pro.html)
+<!-- DB:END -->
+
+## Accessories
+
+<!-- DB:START section="Accessories" console=snes -->
+- **[FamiCoun](https://github.com/jeffqchen/FamiCoun-Famicom-Front-Expansion-NES-SNES-Adapter)** by [jeffqchen](https://x.com/jeffqchen)
+  Open source adapter connecting the Famicom's front expansion port to NES and SNES hardware. Allows Famicom expansion audio accessories to work through to NES hardware. Enables expansion audio on NES hardware without modifying the console itself.
+<!-- DB:END -->
