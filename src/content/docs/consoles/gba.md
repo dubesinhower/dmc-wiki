@@ -24,7 +24,7 @@ description: Mods, repairs, and upgrades for the Game Boy Advance (AGB-001) and 
 
 ## Storage / Flash Carts
 
-- **EverDrive GBA X5 Mini** (Krikzz) — Frequently recommended. SD card-based, supports most ROMs, includes RTC support for games that require it (Pokémon, etc.). Compact form factor fits flush in the cartridge slot. [Buy · Krikzz](https://krikzz.com/our-products/cartridges/edgba.html) → [Full details](/projects/everdrive-gba-x5-mini)
+- **EverDrive GBA X5 Mini** (Krikzz) — Frequently recommended. SD card-based, supports most ROMs, includes RTC support for games that require it (Pokémon, etc.). Compact form factor fits flush in the cartridge slot. [Buy · Krikzz](https://krikzz.com/our-products/cartridges/edgba.html)
 
 - **EZFlash Omega Definitive Edition** — Alternative to EverDrive. Notable for save state support and a slightly different feature set. Community discussions mention occasional compatibility quirks compared to EverDrive. [Buy · EZFlash](https://www.ezflash.cn/product/ez-flash-omega-definitive-edition/)
 
@@ -64,6 +64,13 @@ description: Mods, repairs, and upgrades for the Game Boy Advance (AGB-001) and 
 - Shell trimming requirements vary between IPS kit brands and shell sources — confirm compatibility before buying.
 - Some IPS kits require soldering touch sensor wires for brightness/colour control; others are truly drop-in. Product listings usually specify.
 - The AGS-101 screen swap into AGS-001 is considered a "classic" mod but requires sourcing a used AGS-101, which adds cost vs. a modern IPS kit.
+
+## Flash Carts
+
+<!-- DB:START type=flash_cart console=gba -->
+- **[EverDrive GBA X5 Mini](https://krikzz.com/our-products/cartridges/)** by [Krikzz](https://x.com/krikzz)
+  SD-based flash cart for Game Boy Advance. Compact form factor, broad ROM compatibility, RTC support for time-sensitive games (Pokémon, etc.). Compact and reliable. The go-to GBA flash cart recommendation. $70.
+<!-- DB:END -->
 
 ---
 

@@ -9,7 +9,7 @@ description: Mods, repairs, and upgrades for the Nintendo GameCube.
 
 ### HDMI Output
 
-- **RetroGEM** (PixelFX) — Internal HDMI output board for the GameCube. Widely discussed in the community; community member obieone noted completing installs on PS1, N64, and GameCube. Rear IO panel replacements designed for the RetroGEM are available on [Printables by BlueShell3D](https://www.printables.com/model/1244072-gamecube-replacement-rear-io-panels-for-retrogem). → [Full details](/projects/retrogem)
+- **RetroGEM** (PixelFX) — Internal HDMI output board for the GameCube. Widely discussed in the community; community member obieone noted completing installs on PS1, N64, and GameCube. Rear IO panel replacements designed for the RetroGEM are available on [Printables by BlueShell3D](https://www.printables.com/model/1244072-gamecube-replacement-rear-io-panels-for-retrogem).
 - **GC Dual** — Another HDMI solution for GameCube. BlueShell3D also has rear IO panel replacements for the GC Dual on [Printables](https://www.printables.com/model/341725-gamecube-replacement-rear-io-panels). Community member GabeShack shared both panel designs.
 
 ### S-Video / Component
@@ -24,7 +24,7 @@ description: Mods, repairs, and upgrades for the Nintendo GameCube.
 
 ## Controllers
 
-- **GC Ultimate 2** (Mitch HHL) — Open-source, repair-friendly controller with hall effect sticks and triggers, gyro, analog triggers, and native Steam support. Designed for GameCube and N64 (and Nintendo Switch). Crowdfunding as of early 2026; ~$60–80. [gcultimate.com](https://gcultimate.com) → [Full details](/projects/gc-ultimate-2)
+- **GC Ultimate 2** (Mitch HHL) — Open-source, repair-friendly controller with hall effect sticks and triggers, gyro, analog triggers, and native Steam support. Designed for GameCube and N64 (and Nintendo Switch). Crowdfunding as of early 2026; ~$60–80. [gcultimate.com](https://gcultimate.com)
 
 - **BlueRetro HW2 GameCube** (Arthrimus) — Internal Bluetooth wireless controller board designed for the GameCube. Open-source PCB. See [GitHub](https://github.com/Arthrimus/BlueRetro-HW2-GameCube).
 - **USB to GameCube Adapter** (Robert Dale Smith) — Open-source USB to GameCube controller adapter. Covered by RetroRGB; see [retrorgb.com](https://www.retrorgb.com/open-source-usb-to-gamecube-adapter-from-robert-dale-smith.html).
@@ -75,6 +75,27 @@ description: Mods, repairs, and upgrades for the Nintendo GameCube.
 - [RetroGEM Rear IO Panels – BlueShell3D (Printables)](https://www.printables.com/model/1244072-gamecube-replacement-rear-io-panels-for-retrogem)
 - [Project Renaissance GameCube Portable (BitBuilt)](https://bitbuilt.net/forums/index.php?threads/project-renaissance-a-modern-gamecube-portable.6922/)
 - [Open-Source USB to GC Adapter (RetroRGB)](https://www.retrorgb.com/open-source-usb-to-gamecube-adapter-from-robert-dale-smith.html)
+
+## 3D-Printed Parts
+
+<!-- DB:START type=3d_print console=gamecube -->
+- **[GameCube Rear IO Panels (RetroGEM / GC Dual)](https://www.printables.com/model/1244072-gamecube-replacement-rear-io-panels-for-retrogem)** by [BlueShell3D](https://x.com/BlueShell3D)
+  3D-printed replacement rear IO panels for the GameCube, with cutouts specifically designed for RetroGEM and GC Dual HDMI installs. Variants include combined HDMI + Ethernet cutouts for FlippyDrive builds. Solves the cosmetic problem of HDMI mods requiring holes in the GameCube shell — these make the build look intentional and clean. Open source.
+<!-- DB:END -->
+
+## Controllers
+
+<!-- DB:START type=controller console=gamecube -->
+- **[GC Ultimate 2](https://gcultimate.com)** by [Mitch HHL](https://x.com/MitchHHL)
+  Open source, repair-friendly controller with hall effect sticks and triggers, gyro, analog triggers, and native Steam support. Compatible with N64, GameCube, Switch, Switch 2, and PC. Addresses the N64/GameCube controller reliability problem with modern internals. Fully open source firmware. Repair-friendly design (iFixit collab). Active Kickstarter as of February 2026. ~$60–80.
+<!-- DB:END -->
+
+## Hardware Mods
+
+<!-- DB:START type=hardware_mod console=gamecube -->
+- **[RetroGEM](https://pixelfx.co)** by [PixelFX](https://pixelfx.co)
+  Universal internal HDMI mod kit covering PS1, PS2, N64, GameCube, Wii, and more. FPGA-based, includes OSD and GameID integration. Active firmware development. Integrates tightly with the PixelFX Morph 4K for per-game profiles. The community go-to for internal HDMI installs across multiple platforms. Single ecosystem covers most of the popular consoles. GEM + Morph integration is the most capable HDMI + scaler pairing currently available. $100–$150. [Buy](https://stoneagegamer.com/retro-gem-universal-hdmi-upscaler-kit-for-ps1-ps2-n64-pixelfx.html)
+<!-- DB:END -->
 
 ---
 

@@ -9,7 +9,7 @@ description: Mods, repairs, and upgrades for the original PlayStation (SCPH-seri
 
 ### HDMI / RGB Output
 
-- **RetroGEM** (PixelFX) — Universal internal HDMI mod kit covering PS1, PS2, and N64. Widely installed in the community; active firmware development ongoing. Note: a border/overlay in PS1 and PS2 builds has been observed by community members — firmware revisions continue to address this. PSOne and PU-8 board compatibility was mentioned as "in consideration." [Buy · Stone Age Gamer](https://stoneagegamer.com/retro-gem-universal-hdmi-upscaler-kit-for-ps1-ps2-n64-pixelfx.html) · [PixelFX site](https://pixelfx.co) → [Full details](/projects/retrogem)
+- **RetroGEM** (PixelFX) — Universal internal HDMI mod kit covering PS1, PS2, and N64. Widely installed in the community; active firmware development ongoing. Note: a border/overlay in PS1 and PS2 builds has been observed by community members — firmware revisions continue to address this. PSOne and PU-8 board compatibility was mentioned as "in consideration." [Buy · Stone Age Gamer](https://stoneagegamer.com/retro-gem-universal-hdmi-upscaler-kit-for-ps1-ps2-n64-pixelfx.html) · [PixelFX site](https://pixelfx.co)
 
 ## Storage / Flash Carts
 
@@ -29,7 +29,7 @@ description: Mods, repairs, and upgrades for the original PlayStation (SCPH-seri
 
 ## Memory Cards
 
-- **MemCard PRO** (8BitMods) — Digital memory card replacement for PS1 with game-aware auto-switching. Available from Rondo Products ([rondoproducts.com](https://rondoproducts.com/products/memcard-pro)). Linked by community member hardbroiled; actively discussed in the community around pre-order and multi-product shipping groupings. → [Full details](/projects/memcard-pro)
+- **MemCard PRO** (8BitMods) — Digital memory card replacement for PS1 with game-aware auto-switching. Available from Rondo Products ([rondoproducts.com](https://rondoproducts.com/products/memcard-pro)). Linked by community member hardbroiled; actively discussed in the community around pre-order and multi-product shipping groupings.
 
 ## Common Repairs
 
@@ -74,6 +74,20 @@ description: Mods, repairs, and upgrades for the original PlayStation (SCPH-seri
 - [Project Medusa BlueRetro](https://www.willsconsolemodifications.co.uk)
 - [RetroGEM at Stone Age Gamer](https://stoneagegamer.com/retro-gem-universal-hdmi-upscaler-kit-for-ps1-ps2-n64-pixelfx.html)
 - [PSX-Place](https://www.psx-place.com)
+
+## Accessories
+
+<!-- DB:START type=accessory console=ps1 -->
+- **[MemCard PRO](https://castlemaniagames.com)** by [8BitMods](https://x.com/8bitmods)
+  Digital memory card replacement for PS1 (and PS2) with game-aware auto-switching. Stores all saves digitally on SD card, swaps profiles per game automatically. The community standard digital memory card for PS1. Available from Rondo Products and CastleMania. ~$45.
+<!-- DB:END -->
+
+## Hardware Mods
+
+<!-- DB:START type=hardware_mod console=ps1 -->
+- **[RetroGEM](https://pixelfx.co)** by [PixelFX](https://pixelfx.co)
+  Universal internal HDMI mod kit covering PS1, PS2, N64, GameCube, Wii, and more. FPGA-based, includes OSD and GameID integration. Active firmware development. Integrates tightly with the PixelFX Morph 4K for per-game profiles. The community go-to for internal HDMI installs across multiple platforms. Single ecosystem covers most of the popular consoles. GEM + Morph integration is the most capable HDMI + scaler pairing currently available. $100–$150. [Buy](https://stoneagegamer.com/retro-gem-universal-hdmi-upscaler-kit-for-ps1-ps2-n64-pixelfx.html)
+<!-- DB:END -->
 
 ---
 

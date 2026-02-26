@@ -52,14 +52,6 @@ export default defineConfig({
           ],
         },
                 {
-          label: 'Projects',
-          autogenerate: { directory: 'projects' },
-        },
-        {
-          label: 'Creators',
-          autogenerate: { directory: 'creators' },
-        },
-        {
           label: 'Topics',
           items: [
             { label: 'All Topics', link: '/topics/' },

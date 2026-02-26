@@ -10,14 +10,14 @@ description: Mods, repairs, and upgrades for the Sega Genesis (all models) and M
 ### RGB / HDMI Output
 
 - **Triple Bypass Mod** — Widely discussed RGB upgrade that bypasses the onboard video encoder. Replaces composite/RF output path with clean RGB directly from the VDP. Available pre-assembled from Stone Age Gamer and as a DIY kit. See [Stone Age Gamer listing](https://stoneagegamer.com/sega-genesis-mega-drive-triple-bypass-modification-version-2.html).
-- **4BP Quadruple Bypass** (zaxour) — Extended bypass mod supporting additional signal paths. DIY kit available via [zaxour's Ko-fi shop](https://ko-fi.com/s/51d6725bbe). → [Full details](/projects/4bp-quadruple-bypass)
+- **4BP Quadruple Bypass** (zaxour) — Extended bypass mod supporting additional signal paths. DIY kit available via [zaxour's Ko-fi shop](https://ko-fi.com/s/51d6725bbe).
 - **Genesis Model 1 Subcarrier Bypass** — New method for the Model 1 board, covered by RetroRGB. Discussed by GabeShack in the community. See [RetroRGB article](https://retrorgb.com/genesis-model-1-subcarrier-bypass-new-method-tested.html).
 - **RGBeter32X open-source composite/S-Video board** — Community member RGBeter ([@RGBeter32X](https://twitter.com/RGBeter32X)) noted in Discord: "New composite and S-Video (better than any stock Genesis because we spent too long tuning the luma filtering), technically a subcarrier bypass." Described as open-source.
 - **HDMI full solution** — Community members noted that achieving a full internal HDMI solution for Genesis requires multiple boards and has become expensive.
 
 ## Storage / Flash Carts
 
-- **Mega EverDrive Pro** (Krikzz) — SD-based flash cart supporting Genesis/Mega Drive and Mega CD game images. Discussed in context of 32X integration and Genesis Mode switching. [Buy · Krikzz](https://krikzz.com/our-products/cartridges/mepro.html) → [Full details](/projects/mega-everdrive-pro)
+- **Mega EverDrive Pro** (Krikzz) — SD-based flash cart supporting Genesis/Mega Drive and Mega CD game images. Discussed in context of 32X integration and Genesis Mode switching. [Buy · Krikzz](https://krikzz.com/our-products/cartridges/mepro.html)
 
 - **Mega EverDrive X7** (Krikzz) — Focused Genesis/Mega Drive flash cart without Mega CD support. [Buy · Krikzz](https://krikzz.com/our-products/cartridges/med-x7.html)
 
@@ -64,6 +64,22 @@ description: Mods, repairs, and upgrades for the Sega Genesis (all models) and M
 - [TMSS Disable (GitHub)](https://github.com/consolesunleashed/sega-mega-drive-tmss-disable)
 - [Retro Game Restore – Mega Drive 2 Shells](https://retrogamerestore.com/store/md2shl/)
 - [RGBeter32X on Twitter](https://twitter.com/RGBeter32X)
+
+## Flash Carts
+
+<!-- DB:START type=flash_cart console=genesis -->
+- **[Mega EverDrive Pro](https://krikzz.com/our-products/cartridges/)** by [Krikzz](https://x.com/krikzz)
+  Genesis flash cart with Sega CD game emulation built in. Note: not compatible with ODE-based Sega CD implementations (MODE, GDEMU). Krikzz confirmed fixing this would require a ground-up rewrite. The only flash cart that combines Genesis + Sega CD in one cart — but the ODE incompatibility is a known hard limitation. $100.
+- **[Mega EverDrive X3 / X5 / X7](https://krikzz.com/our-products/cartridges/)** by [Krikzz](https://x.com/krikzz)
+  SD-based flash carts for Sega Genesis/Mega Drive. X3/X5 cover the full Genesis and 32X library (~$40–60). X7 adds more storage and speed. None support Sega CD. X5 is the budget entry point covering the entire Genesis + 32X library. Best value in the EverDrive lineup. $40–$80.
+<!-- DB:END -->
+
+## Hardware Mods
+
+<!-- DB:START type=hardware_mod console=genesis -->
+- **[4BP Quadruple Bypass](https://ko-fi.com/s/51d6725bbe)** by [zaxour](https://x.com/zaxour)
+  Extended RGB bypass mod for Sega Genesis/Mega Drive supporting additional signal paths beyond the standard Triple Bypass. DIY kit. The most comprehensive Genesis RGB bypass available, from a well-known open source developer.
+<!-- DB:END -->
 
 ---
 
