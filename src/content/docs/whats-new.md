@@ -6,7 +6,7 @@ sidebar:
   label: "🆕 What's New"
 ---
 
-*Last updated: 2026-02-26 12:41 UTC*
+*Last updated: 2026-02-26 14:06 UTC*
 
 ## Recent Pipeline Activity
 
@@ -31,6 +31,10 @@ Projects with new updates captured by the pipeline in the last 30 days.
 
 ## Projects Added — Last 60 Days
 
+- **SwancolorHD** (hardware_mod/hdmi) by ManCloud,zwenergy — Open source HDMI mod for the WonderSwan and WonderSwan Color. V2 in development as of early 2026, adding a QSB for ea...
+- **PicoDVI-N64** (hardware_mod/hdmi) by ManCloud — RP2040-based digital video output mod for the N64 using the PicoDVI framework. Outputs HDMI directly from the N64's d.... [→ N64 page](/consoles/n64)
+- **PM2040** (flash_cart) by zwenergy — RP2040-based flash cart for the Pokemon Mini handheld. Supports BIOS dumping, USB connectivity, and a video player mode.
+- **iQue Player SD Loader** (software/ode) by zwenergy — Custom firmware enabling the iQue Player (Chinese N64 variant) to load game images from a MicroSD card, replacing the...
 - **FreeMCBoot** (software/softmod) by PS2 Homebrew Community — Free softmod for PS2 that installs to a memory card. Enables homebrew, OPL game loading, and region-free play without.... [→ PS2 page](/consoles/ps2)
 - **Open PS2 Loader (OPL)** (software/utility) by PS2 Homebrew Community — Open source PS2 game loader supporting USB, network (SMB), and internal hard drive (HDD) sources. Loads disc images s.... [→ PS2 page](/consoles/ps2)
 - **MechaPwn** (software/softmod) by PS2 Homebrew Community — Permanent optical drive unlock for PS2. Patches the DVD drive MechaCon firmware to allow any disc region and remove r.... [→ PS2 page](/consoles/ps2)
@@ -84,6 +88,8 @@ Projects with new updates captured by the pipeline in the last 30 days.
 
 ## Creators Added — Last 60 Days
 
+- **ManCloud** — Open source HDMI mods and hardware reverse engineering for obscure retro handhelds and consoles. mancloud.bsky.social (bluesky)
+- **zwenergy** — Open source flash carts and HDMI/video mods for obscure retro hardware (iQue Player, Pokemon Mini, WonderSwan). zwenergy.bsky.social (bluesky)
 - **Batari / AtariAge** — Atari 2600 flash carts, homebrew. atariage.com (website)
 - **Brian Hardigen** — Atari video mods, composite/S-Video upgrades
 - **PS2 Homebrew Community** — PS2 homebrew, softmods, game loading firmware. ps2homebrew (github)
