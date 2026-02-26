@@ -44,10 +44,6 @@ description: Mods, repairs, and upgrades for the SNES (all revisions) and Super 
 - **SNES Jr. CPU Repro PCB** (qwertymodo) — An open-source SNES Jr. CPU board reproduction. Shared by starlightk7: "Qwertymodo has released his SNES Jr repro." See [GitHub](https://github.com/qwertymodo/kicad-snn-cpu-01).
 ---
 
-## FPGA Hardware
-
-- **OpenSFC** (starlightk7) — Open-source FPGA-based Super Famicom/SNES console. Aims to be a fully open hardware alternative to original SFC/SNES hardware, including support for standard mods like NESRGB-style installs. Pre-release as of early 2026; first units were approaching completion. [Buy when available · 1Up Restorations](https://1uprestorations.com) · [RetroUpgrades](https://retroupgrades.com)
-
 ## Controllers
 
 - **8Bitdo Sn30 2.4GHz Wireless Gamepad** — Wireless controller for original SNES/SFC. Discussed by RayneX in community. Available from Amazon.
@@ -61,11 +57,6 @@ description: Mods, repairs, and upgrades for the SNES (all revisions) and Super 
   A DIY SNES video enhancement kit that sharpens the SNES video output by boosting edge definition. Sold as a kit; install is streamed by Voultar. Note: community investigation ongoing (as of Feb 2026) into whether it can stress the PPU2 analog DAC under certain conditions. A popular and widely discussed SNES video mod from one of the most prominent SNES modders in the community. The ongoing PPU2 concern is active community discussion.
 - **[SNES RGB Bypass](https://github.com/borti4938/SNES_RGB_Bypass)** by [borti4938](https://github.com/borti4938)
   Open source internal RGB bypass mod for SNES/Super Famicom. Addresses the video noise present in stock output by bypassing the onboard video encoder. The go-to open source SNES RGB mod. Widely installed, well documented, and free to build.
-<!-- DB:END -->
-
-## Display — FPGA
-
-<!-- DB:START section="Display — FPGA" console=snes -->
 <!-- DB:END -->
 
 ## Storage — Flash Carts
