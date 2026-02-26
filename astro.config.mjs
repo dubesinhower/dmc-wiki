@@ -53,6 +53,19 @@ export default defineConfig({
           label: 'Sony',
           items: [
             { label: 'PlayStation', link: '/consoles/ps1' },
+            { label: 'PlayStation 2', link: '/consoles/ps2' },
+          ],
+        },
+        {
+          label: 'NEC / Hudson',
+          items: [
+            { label: 'PC-Engine / TurboGrafx-16', link: '/consoles/pc-engine' },
+          ],
+        },
+        {
+          label: 'Atari',
+          items: [
+            { label: 'Atari 2600', link: '/consoles/atari-2600' },
           ],
         },
                 {

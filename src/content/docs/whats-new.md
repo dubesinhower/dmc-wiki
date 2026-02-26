@@ -6,7 +6,7 @@ sidebar:
   label: "🆕 What's New"
 ---
 
-*Last updated: 2026-02-26 05:16 UTC*
+*Last updated: 2026-02-26 12:41 UTC*
 
 ## Recent Pipeline Activity
 
@@ -31,6 +31,11 @@ Projects with new updates captured by the pipeline in the last 30 days.
 
 ## Projects Added — Last 60 Days
 
+- **FreeMCBoot** (software/softmod) by PS2 Homebrew Community — Free softmod for PS2 that installs to a memory card. Enables homebrew, OPL game loading, and region-free play without.... [→ PS2 page](/consoles/ps2)
+- **Open PS2 Loader (OPL)** (software/utility) by PS2 Homebrew Community — Open source PS2 game loader supporting USB, network (SMB), and internal hard drive (HDD) sources. Loads disc images s.... [→ PS2 page](/consoles/ps2)
+- **MechaPwn** (software/softmod) by PS2 Homebrew Community — Permanent optical drive unlock for PS2. Patches the DVD drive MechaCon firmware to allow any disc region and remove r.... [→ PS2 page](/consoles/ps2)
+- **Harmony Encore** (flash_cart) by Batari / AtariAge — SD-based flash cart for the Atari 2600. Supports the full 2600 library including Superchip and DPC+ bankswitching sch.... [→ ATARI-2600 page](/consoles/atari-2600)
+- **UAV (Ultimate Atari Video)** (hardware_mod/rgb) by Brian Hardigen — Composite and S-Video upgrade board for Atari 2600 and 7800. Replaces the aging RF output with clean composite and S-.... [→ ATARI-2600 page](/consoles/atari-2600)
 - **ETH2SP1 GameCube Ethernet Adapter** (adapter/ethernet) by Greg of Laser Bear — An SPI Ethernet adapter for the GameCube that connects to Serial Port 1, providing a modern BBA (Broadband Adapter) a.... [→ GameCube page](/consoles/gamecube)
 - **SD2SP1 GameCube SD Adapter** (adapter/storage) by Greg of Laser Bear — An SD card adapter for the GameCube Serial Port 1 (SP1) on the base of the console. Provides an SD card interface acc.... [→ GameCube page](/consoles/gamecube)
 - **FlippyDrive SD Extension** (accessory/ode) by Greg of Laser Bear — A kit that replaces the light pipe in the top of the GameCube with an SD card slot. Makes it easy to access and swap .... [→ GameCube page](/consoles/gamecube)
@@ -55,7 +60,7 @@ Projects with new updates captured by the pipeline in the last 30 days.
 - **EverDrive 64 X5 / X7** (flash_cart) by Krikzz — SD-based flash carts for Nintendo 64. X5 covers the core library; X7 adds a faster processor. Note: long-reset overcl.... [→ N64 page](/consoles/n64)
 - **Mega EverDrive X3 / X5 / X7** (flash_cart) by Krikzz — SD-based flash carts for Sega Genesis/Mega Drive. X3/X5 cover the full Genesis and 32X library (~$40–60). X7 adds mor.... [→ Genesis page](/consoles/genesis)
 - **Mega EverDrive Pro** (flash_cart) by Krikzz — Genesis flash cart with Sega CD game emulation built in. Note: not compatible with ODE-based Sega CD implementations .... [→ Genesis page](/consoles/genesis)
-- **Turbo EverDrive v2** (flash_cart) by Krikzz — SD-based flash cart for PC-Engine and TurboGrafx-16.
+- **Turbo EverDrive v2** (flash_cart) by Krikzz — SD-based flash cart for PC-Engine and TurboGrafx-16.. [→ PC-ENGINE page](/consoles/pc-engine)
 - **Master EverDrive X7** (flash_cart) by Krikzz — SD-based flash cart for Sega Master System.. [→ Master System page](/consoles/master-system)
 - **EverDrive GG X7** (flash_cart) by Krikzz — SD-based flash cart for the Sega Game Gear.. [→ Game Gear page](/consoles/game-gear)
 - **OpenSFC** (pcb/mainboard) by starlightk7 — An open source replacement mainboard for the Super Famicom/SNES console. Aims to be a fully open hardware alternative.... [→ SNES page](/consoles/snes)
@@ -75,10 +80,13 @@ Projects with new updates captured by the pipeline in the last 30 days.
 - **MouseBiteLabs NES Cartridge PCBs** (pcb/cartridge) by MouseBiteLabs — Open source NES cartridge PCBs for discrete logic mappers. Free to fabricate from Gerbers.. [→ NES page](/consoles/nes)
 - **MR Cart** (flash_cart) by RetroOnyx — The primary flash cart for the Virtual Boy. Sold in limited batches by RetroOnyx. An aluminum-shell version shipped i...
 - **NESRGB** (hardware_mod/rgb) by Tim Worthington — Internal RGB mod kit for the NES and Famicom. Installs internally and adds an RGB header. Requires a donor PPU chip. .... [→ NES page](/consoles/nes)
-- **2600RGB** (hardware_mod/rgb) by Tim Worthington — RGB mod for the Atari 2600. Updated version in 2025 includes sync fixes.
+- **2600RGB** (hardware_mod/rgb) by Tim Worthington — RGB mod for the Atari 2600. Updated version in 2025 includes sync fixes.. [→ ATARI-2600 page](/consoles/atari-2600)
 
 ## Creators Added — Last 60 Days
 
+- **Batari / AtariAge** — Atari 2600 flash carts, homebrew. atariage.com (website)
+- **Brian Hardigen** — Atari video mods, composite/S-Video upgrades
+- **PS2 Homebrew Community** — PS2 homebrew, softmods, game loading firmware. ps2homebrew (github)
 - **ChrisPVille** — Console mods, hardware hacking. chrispville.bsky.social (bluesky), chrispville (x)
 - **Analogue Inc.** — FPGA gaming hardware, premium retro consoles. analogue.bsky.social (bluesky), analogue (x)
 - **Arthrimus** — MiSTer FPGA cores, retro hardware emulation. arthrimus (x)
