@@ -5,12 +5,6 @@ description: Mods, repairs, and upgrades for the original PlayStation (SCPH-seri
 
 > Options listed without ranking. Compatibility can vary by hardware revision — always verify before purchasing.
 
-## Display Mods
-
-### HDMI / RGB Output
-
-- **RetroGEM** (PixelFX) — Universal internal HDMI mod kit covering PS1, PS2, and N64. Widely installed in the community; active firmware development ongoing. Note: a border/overlay in PS1 and PS2 builds has been observed by community members — firmware revisions continue to address this. PSOne and PU-8 board compatibility was mentioned as "in consideration." [Buy · Stone Age Gamer](https://stoneagegamer.com/retro-gem-universal-hdmi-upscaler-kit-for-ps1-ps2-n64-pixelfx.html) · [PixelFX site](https://pixelfx.co)
-
 ## Storage / Flash Carts
 
 - PS1 uses optical disc media; flash carts in the traditional sense are not standard. See ODE section below.
@@ -26,10 +20,6 @@ description: Mods, repairs, and upgrades for the original PlayStation (SCPH-seri
 - **PSnee** — Open-source software modchip project with wide hardware support. Runs on common cheap microcontrollers (ATtiny, PIC). [GitHub](https://github.com/kalymos/PSnee)
 - **Delta PSnee QSB** — A compact quick-solder board implementation of PSnee. Available from [delta-island.com](https://delta-island.com/index.php/en/tutorials/playstation-delta-psnee-qsb).
 - **tehUberChip** (L10N37) — Another open-source PS1 modchip. See [GitHub](https://github.com/L10N37/tehUberChip_Another_PSX_Modchip).
-
-## Memory Cards
-
-- **MemCard PRO** (8BitMods) — Digital memory card replacement for PS1 with game-aware auto-switching. Available from Rondo Products ([rondoproducts.com](https://rondoproducts.com/products/memcard-pro)). Linked by community member hardbroiled; actively discussed in the community around pre-order and multi-product shipping groupings.
 
 ## Common Repairs
 

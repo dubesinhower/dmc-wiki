@@ -9,7 +9,6 @@ description: Mods, repairs, and upgrades for the Nintendo GameCube.
 
 ### HDMI Output
 
-- **RetroGEM** (PixelFX) — Internal HDMI output board for the GameCube. Widely discussed in the community; community member obieone noted completing installs on PS1, N64, and GameCube. Rear IO panel replacements designed for the RetroGEM are available on [Printables by BlueShell3D](https://www.printables.com/model/1244072-gamecube-replacement-rear-io-panels-for-retrogem).
 - **GC Dual** — Another HDMI solution for GameCube. BlueShell3D also has rear IO panel replacements for the GC Dual on [Printables](https://www.printables.com/model/341725-gamecube-replacement-rear-io-panels). Community member GabeShack shared both panel designs.
 
 ### S-Video / Component
@@ -24,8 +23,6 @@ description: Mods, repairs, and upgrades for the Nintendo GameCube.
 
 ## Controllers
 
-- **GC Ultimate 2** (Mitch HHL) — Open-source, repair-friendly controller with hall effect sticks and triggers, gyro, analog triggers, and native Steam support. Designed for GameCube and N64 (and Nintendo Switch). Crowdfunding as of early 2026; ~$60–80. [gcultimate.com](https://gcultimate.com)
-
 - **BlueRetro HW2 GameCube** (Arthrimus) — Internal Bluetooth wireless controller board designed for the GameCube. Open-source PCB. See [GitHub](https://github.com/Arthrimus/BlueRetro-HW2-GameCube).
 - **USB to GameCube Adapter** (Robert Dale Smith) — Open-source USB to GameCube controller adapter. Covered by RetroRGB; see [retrorgb.com](https://www.retrorgb.com/open-source-usb-to-gamecube-adapter-from-robert-dale-smith.html).
 - **GameCube Controller Connector with Breakout PCB** (Electron Shepherd) — PCB-mounted GameCube connector for controller port builds. Available from [electron-shepherd.com](https://electron-shepherd.com/collections/all/products/gamecube-connector-w-breakout-pcb).
@@ -33,7 +30,6 @@ description: Mods, repairs, and upgrades for the Nintendo GameCube.
 ## Networking
 
 - **GCNET** (NeoStormer) — Ethernet networking solution for the GameCube. See [gcnet.neostormer.com](https://gcnet.neostormer.com).
-- **ETH2SP1 Ethernet Adapter** — Swiss BBA (Broadband Adapter) alternative. Shared by Dubesinhower via [collabs.shop](https://collabs.shop/oc9bl8). Allows networked game loading via Swiss.
 - **BBA (Broadband Adapter)** — Original Nintendo broadband adapter. Community member Muramasa noted finding one in a pile of GameCubes at a thrift store.
 
 ## Common Repairs
@@ -51,7 +47,6 @@ description: Mods, repairs, and upgrades for the Nintendo GameCube.
 
 ## Shell / Cosmetic Mods
 
-- **Replacement rear IO panels** (BlueShell3D) — 3D-printed rear IO panel replacements fitting RetroGEM and GC Dual HDMI installations. Available on Printables.
 - **3D-printed shells and enclosures** — Community member kak-hoofd mentioned using an Anycubic M3 Max for printing and verifying a GameCube model for Muramasa and Castlemania. Custom shell colors and modifications are discussed on BitBuilt.
 - **Project Renaissance GameCube Portable** — A portable GameCube build project tracked on BitBuilt forums. Shared by GabeShack: see [BitBuilt thread](https://bitbuilt.net/forums/index.php?threads/project-renaissance-a-modern-gamecube-portable.6922/).
 

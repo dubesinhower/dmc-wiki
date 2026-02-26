@@ -24,8 +24,6 @@ description: Mods, repairs, and upgrades for the Game Boy Advance (AGB-001) and 
 
 ## Storage / Flash Carts
 
-- **EverDrive GBA X5 Mini** (Krikzz) — Frequently recommended. SD card-based, supports most ROMs, includes RTC support for games that require it (Pokémon, etc.). Compact form factor fits flush in the cartridge slot. [Buy · Krikzz](https://krikzz.com/our-products/cartridges/edgba.html)
-
 - **EZFlash Omega Definitive Edition** — Alternative to EverDrive. Notable for save state support and a slightly different feature set. Community discussions mention occasional compatibility quirks compared to EverDrive. [Buy · EZFlash](https://www.ezflash.cn/product/ez-flash-omega-definitive-edition/)
 
 - **EZFlash Jr.** — Designed for original Game Boy and Game Boy Color, not GBA. Sometimes mentioned alongside GBA carts in general flash cart discussions — confirm you're buying the right cart for your system. [Buy · EZFlash](https://www.ezflash.cn/product/ezflash-junior/)

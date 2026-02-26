@@ -9,9 +9,7 @@ description: Mods, repairs, and upgrades for the SNES (all revisions) and Super 
 
 ### RGB / HDMI Output
 
-- **SNES RGB Bypass** (borti4938) — Open-source RGB bypass mod for SNES. Addresses video noise present in stock output. See [GitHub](https://github.com/borti4938/SNES_RGB_Bypass).
 - **SNES 2-Chip RGB Filter Mod** — Documented on Aussie Arcade for the SHVC-CPU-001 2-chip boards. Addresses the video dot-crawl/noise inherent to 2-chip SNES revisions. See [Aussie Arcade thread](https://www.aussiearcade.com/topic/90003-snes-sfc-shvc-cpu-001-2-chip-rgb-filter-mod-video-fix/).
-- **SNES Edge Enhancer DIY Kit** (Voultar) — DIY kit addressing sharpness and edge enhancement in SNES video output. Available from [voultar.com](https://voultar.com).
 - **SuperPico Digital** (fliperama86) — Experimental SNES digital video output project. Community member zwenergy noted it is "more experimental yet" compared to other HDMI solutions. See [GitHub](https://github.com/fliperama86/superpico-digital).
 - **SNES CPU Replacement via FPGA** — A Hackaday article about FPGA-based SNES CPU replacement was shared in the community. See [Hackaday](https://hackaday.com/2025/03/31/a-snes-cpu-replacement-via-fpga/).
 
@@ -21,7 +19,6 @@ description: Mods, repairs, and upgrades for the SNES (all revisions) and Super 
 
 ## Storage / Flash Carts
 
-- **FXPak Pro (sd2snes)** (Krikzz / ikari_01) — The long-running open-source FPGA-based flash cart for SNES and Super Famicom. Supports enhancement chips that most other carts cannot emulate — SA-1, Super FX, DSP, etc. Active firmware development continues. [Buy · Krikzz](https://krikzz.com/our-products/cartridges/fxpak-pro.html) · [GitHub](https://github.com/sd2snes/sd2snes)
 - **Epilogue GB Operator (SNES edition)** — Epilogue marketed a limited-edition SNES cartridge reader. JesusBurnsNeon noted the marketing approach in community discussion: "preorders starting Tuesday for $60."
 - **SA-1 Root** (VitorVilela7) — Project for accelerating SNES games using the SA-1 co-processor. Relevant for homebrew and repro builds. See [GitHub](https://github.com/VitorVilela7/SA1-Root).
 
