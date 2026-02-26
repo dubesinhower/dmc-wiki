@@ -16,6 +16,10 @@ export default defineConfig({
       },
       sidebar: [
         {
+          label: "🆕 What's New",
+          link: '/whats-new',
+        },
+        {
           label: 'Getting Started',
           items: [
             { label: 'About This Wiki', link: '/' },
