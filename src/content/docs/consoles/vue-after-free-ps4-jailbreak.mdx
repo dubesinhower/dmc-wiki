@@ -1,0 +1,162 @@
+```mdx
+---
+title: Vue After Free (PS4 Jailbreak)
+description: A PS4 userland code execution exploit using PlayStation Vue (CVE-2017-7117), supporting firmware 7.00–13.00 for full jailbreak.
+draft: true
+sources:
+  - label: GitHub – Vuemony/vue-after-free
+    url: https://github.com/Vuemony/vue-after-free
+---
+
+import { Aside } from '@astrojs/starlight/components';
+
+## Overview
+
+Vue After Free is a userland exploit for the PlayStation 4 that leverages the PlayStation Vue streaming application (CUSA00960) to achieve code execution via **CVE-2017-7117**. It chains the userland exploit with either the **Lapse** or **Netctrl (Poopsploit)** kernel exploit to achieve a full jailbreak.
+
+The exploit is delivered through a modified save file that loads jailbreak data from the console's HDD. A custom UI provides a payload menu, theme support, and auto-run options. A **Lite** build is also available that skips the UI and automatically detects firmware and launches the appropriate kernel exploit on open.
+
+## Firmware Compatibility
+
+| Component | Supported Firmware |
+| :--- | :--- |
+| Vue After Free (userland only) | 5.05–13.04 |
+| Full jailbreak (this repo) | 7.00–13.00 |
+
+- **7.00–12.02**: Lapse kernel exploit (default)
+- **12.50–13.00**: Netctrl (Poopsploit) kernel exploit
+- Poopsploit can optionally be used on firmwares as low as 9.00
+
+<Aside type="caution">
+Firmware 13.02 and above: userland runs, but no kernel exploit is available in this repo. Full jailbreak is not possible above 13.00.
+</Aside>
+
+## Required Parts
+
+### All Methods
+- PlayStation Vue 1.01 base + 1.24 patch (CUSA00960) — [Download](https://www.mediafire.com/file/45owcabezln2ykm/CUSA00960.zip/file)
+- Any network connection (internet not required — local WiFi, hotspot, ESP32, or Ethernet all work)
+- A payload binary (HEN or GoldHEN) named `payload.bin`
+- USB flash drive formatted **MBR + exFAT**
+
+### Jailbroken PS4 (Manual Method)
+- FTP access to the console
+- Apollo Save Tool — [Download](https://github.com/bucanero/apollo-ps4/releases/latest)
+- Fake or real PSN-activated user account
+
+### Non-Jailbroken — Extended Storage Method
+- USB drive, HDD, or SSD — **256 GB or larger**
+- Internet connection on the PS4
+- A way to resign a save file: jailbroken PS4, a Discord bot, or Save Wizard
+- Fake or real PSN-activated user account
+- balenaEtcher — [Download](https://etcher.balena.io/#download-etcher)
+
+### Non-Jailbroken — System Backup Method
+- USB flash drive formatted exFAT
+- System backup file (included in `VueSystemBackup.7z` release)
+
+<Aside type="danger">
+The System Backup method erases all data on the console. Back up saves and captures to USB before proceeding if possible.
+</Aside>
+
+## Installation Difficulty
+
+| Method | Difficulty |
+| :--- | :--- |
+| Jailbroken PS4 (Manual) | Easy — requires FTP and Apollo Save Tool |
+| Extended Storage + Save Resign | Moderate — requires save resigning and drive flashing with balenaEtcher |
+| System Backup | Easy, but destructive — wipes all console data |
+
+## Setup Overview
+
+### Network Configuration (All Methods)
+
+Vue requires a network connection but must be blocked from reaching Sony servers. Configure before launching Vue:
+
+1. Disable automatic downloads: `Settings > System > Automatic Downloads` — uncheck Featured Content, System Software Update Files, and Application Update Files.
+2. Go to `Settings > Network > Set Up Internet Connection > Custom`.
+3. Set **IP Address** to `Automatic`, **DHCP Host Name** to `Do not Specify`.
+4. Set **DNS Settings** to `Manual` and enter one of the following as Primary DNS (leave Secondary blank):
+
+| DNS | Behavior |
+| :--- | :--- |
+| `127.0.0.2` | Local network only — blocks all Sony traffic |
+| `62.210.38.117` | Nomadic DNS — blocks Sony, allows general internet |
+
+5. Set **MTU** to `Automatic`, **Proxy Server** to `Do Not Use`. Test connection.
+
+<Aside>
+A failed internet connection test is expected and correct when using either DNS — it confirms Sony servers are being blocked.
+</Aside>
+
+### Jailbroken PS4
+
+1. Jailbreak and enable FTP.
+2. Fake-activate your account via Apollo Save Tool: `User Tools > Activate PS4 Accounts`, press R2, X, then O until prompted to exit to XMB. Accept, then reboot and jailbreak again.
+3. Download `VueManualSetup.7z` (or `VueLiteManualSetup.7z`) from releases. Via FTP, place `download0.dat` at `/user/download/CUSA00960/` (create path if needed).
+4. Unpack `save.zip` to USB (or FTP to `/data/fakeusb/`). In Apollo Save Tool, go to USB Saves, select the Vue save (CUSA00960), and choose **Copy save game to HDD**.
+5. Place `payload.bin` (HEN or GoldHEN) in the USB root or `/data/`.
+6. Install Vue 1.01 base then the 1.24 patch from your package installer. Disable **Background Installation**. Reboot.
+7. Open Vue, dismiss the PSN prompt, and press the jailbreak button (or configure autoloader/auto close).
+8. Back up the Vue save file to USB via console settings. Resign an `OnlineSave` for recovery in case of data corruption.
+
+<Aside>
+If using HEN with Auto Close, edit `config.js` and add `20000` to the close delay before enabling it.
+</Aside>
+
+### Extended Storage (Non-Jailbroken)
+
+1. Flash `VueExtImg.7z` (inside `VueExtStorage.7z`) to your 256 GB+ drive using balenaEtcher. Let it complete — it will appear stuck at 0% then 85–99% for several minutes; this is normal.
+2. On the PS4: `Settings > Storage > Extended Storage > Applications > [Options] > Move To System Storage`. Select the Vue app and confirm.
+3. Resign the `OnlineSave` from `VueExtStorage.7z > OnlineSaveResign > CUSA00960` to your Account ID (find yours at `PS4/SAVEDATA/XXXXXXXXXXXXXXXX` on any USB save).
+4. Place the resigned save at `PS4/SAVEDATA/<AccountID>/CUSA00960` on USB. Place `payload.bin` in the USB root.
+5. Import the save: `Settings > Application Saved Data Management > Saved Data on USB Storage Device > Copy to System Storage`.
+6. Open Vue, dismiss the PSN prompt, and follow the on-screen setup to choose full or Lite mode.
+
+### System Backup (Non-Jailbroken)
+
+1. Format USB to exFAT. Unpack `VueSystemBackup.7z` (or `VueLiteSystemBackup.7z`) to its root.
+2. Back up saves (`Settings > Application Saved Data Management > Saved Data in System Storage > Back Up`) and captures (`Settings > Storage > System Storage > Capture Gallery > All`) to USB if accessible.
+3. Restore: `Settings > System > Back Up and Restore > Restore PS4`. Select the system backup and confirm.
+4. After reboot, configure network (see above), place `payload.bin` on USB, then open Vue and run the exploit.
+
+<Aside type="note">
+The default system backup account ID is `1111111111111111`. To use a different account, create a new user after jailbreaking, fake-activate it with Apollo Save Tool, then follow the manual setup steps for that account.
+</Aside>
+
+## Payloads
+
+Bundled payloads accessible from the Payload Menu:
+
+| Payload | Function |
+| :--- | :--- |
+| `ftp-server.ts` | Sandbox FTP — swap exploit or cosmetic files without a full jailbreak |
+| `elfldr.elf` | Loads `.elf` and `.bin` payloads when HEN/GoldHEN are not present |
+| `np-fake-signin` | Suppresses the PSN sign-in prompt on launch (fake accounts only) |
+| `update.js` | Pulls latest repo files in-place (non-Lite builds only) |
+| WebUI | Browser-based userland code execution example |
+
+Additional `.bin` or `.elf` payloads can be auto-loaded after kernel exploit completion by editing `config.js`. HEN and GoldHEN load automatically from USB or `/data/` and should **not** be added to the auto-payload list.
+
+Themes can be installed by copying a theme folder to `/download0/themes/`.
+
+## Recovering the Jailbreak
+
+If Vue updated, save data reset, or exploit data corrupted:
+
+1. Delete the Vue app if it updated.
+2. Rebuild the database in Safe Mode.
+3. Re-flash the drive using the Extended Storage method.
+4. Use the `OnlineSave` (import or resign to your account) and launch Vue with a real internet connection.
+
+## Notes
+
+- Back up the Vue save file to USB after every successful jailbreak via console settings.
+- Do **not** change the NP environment via Debug Settings — it breaks save file compatibility and the fake sign-in payload.
+- JS payloads require closing and reopening Vue between runs. `.bin` and `.elf` payloads can be run consecutively.
+- If the app crashes, the exploit failed — shut down and retry. If the console powers off, press the power button twice to recover from kernel panic, then retry.
+
+## Sources
+
+- [GitHub — Vuemony/vue-after-free](https://github.com/Vuemony/vue-after-free)
+```
