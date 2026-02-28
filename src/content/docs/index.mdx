@@ -1,30 +1,40 @@
 ---
-title: DMC Wiki
-description: The Dubesinhower Modding Community Wiki — community-sourced knowledge on retro console mods, repairs, and upgrades.
-template: splash
+title: Welcome to Starlight
+description: Get started building your docs site with Starlight.
+template: splash # Remove or comment out this line to display the site sidebar on this page.
 hero:
-  tagline: The Dubesinhower Modding Community Wiki. Community-sourced knowledge on retro console mods, repairs, and upgrades.
+  tagline: Congrats on setting up a new Starlight project!
+  image:
+    file: ../../assets/houston.webp
   actions:
-    - text: Browse Consoles
-      link: /dmc-wiki/consoles/
+    - text: Example Guide
+      link: /guides/example/
       icon: right-arrow
-      variant: primary
-    - text: Browse Topics
-      link: /dmc-wiki/topics/
-      icon: right-arrow
+    - text: Read the Starlight docs
+      link: https://starlight.astro.build
+      icon: external
+      variant: minimal
 ---
 
-## About This Wiki
+import { Card, CardGrid } from '@astrojs/starlight/components';
 
-This wiki is a synthesis of knowledge shared in the [Dubesinhower Modding Community Discord](https://t.co/csIvwMwymP) over several years.
+## Next steps
 
-**What you'll find here:**
-- Possible mods and upgrades for retro consoles
-- Common repairs and known failure points
-- Community context on tools, products, and techniques
-
-**What this wiki is not:**
-- A ranking of "best" mods — we list options, not verdicts
-- A replacement for hands-on research — always read up before you solder
-
-> Options are listed without ranking. What works best depends on your hardware revision, budget, and skill level.
+<CardGrid stagger>
+	<Card title="Update content" icon="pencil">
+		Edit `src/content/docs/index.mdx` to see this page change.
+	</Card>
+	<Card title="Change page layout" icon="document">
+		Delete `template: splash` in `src/content/docs/index.mdx` to display a
+		sidebar on this page.
+	</Card>
+	<Card title="Add new content" icon="add-document">
+		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	</Card>
+	<Card title="Configure your site" icon="setting">
+		Edit your `sidebar` and other config in `astro.config.mjs`.
+	</Card>
+	<Card title="Read the docs" icon="open-book">
+		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	</Card>
+</CardGrid>

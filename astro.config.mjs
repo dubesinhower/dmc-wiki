@@ -1,87 +1,26 @@
+// @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
+// https://astro.build/config
 export default defineConfig({
-  site: 'https://dubesinhower.github.io',
-  base: '/dmc-wiki',
-  integrations: [
-    starlight({
-      title: 'DMC Wiki',
-      description: 'The Dubesinhower Modding Community Wiki — community-sourced knowledge on retro console mods, repairs, and upgrades.',
-      social: [
-        { icon: 'discord', label: 'Discord', href: 'https://t.co/csIvwMwymP' },
-      ],
-      editLink: {
-        baseUrl: 'https://github.com/dubesinhower/dmc-wiki/edit/main/',
-      },
-      sidebar: [
-        {
-          label: "🆕 What's New",
-          link: '/whats-new',
-        },
-        {
-          label: 'Getting Started',
-          items: [
-            { label: 'About This Wiki', link: '/' },
-            { label: 'How to Use', link: '/guides/how-to-use' },
-          ],
-        },
-        {
-          label: 'Consoles',
-          items: [
-            { label: 'All Consoles', link: '/consoles/' },
-          ],
-        },
-        {
-          label: 'Nintendo',
-          items: [
-            { label: 'NES / Famicom', link: '/consoles/nes' },
-            { label: 'SNES / Super Famicom', link: '/consoles/snes' },
-            { label: 'Nintendo 64', link: '/consoles/n64' },
-            { label: 'GameCube', link: '/consoles/gamecube' },
-            { label: 'Game Boy Advance', link: '/consoles/gba' },
-          ],
-        },
-        {
-          label: 'Sega',
-          items: [
-            { label: 'Genesis / Mega Drive', link: '/consoles/genesis' },
-            { label: 'Saturn', link: '/consoles/saturn' },
-          ],
-        },
-        {
-          label: 'Sony',
-          items: [
-            { label: 'PlayStation', link: '/consoles/ps1' },
-            { label: 'PlayStation 2', link: '/consoles/ps2' },
-          ],
-        },
-        {
-          label: 'NEC / Hudson',
-          items: [
-            { label: 'PC-Engine / TurboGrafx-16', link: '/consoles/pc-engine' },
-          ],
-        },
-        {
-          label: 'Atari',
-          items: [
-            { label: 'Atari 2600', link: '/consoles/atari-2600' },
-          ],
-        },
-                {
-          label: 'Topics',
-          items: [
-            { label: 'All Topics', link: '/topics/' },
-            { label: 'HDMI Mods', link: '/topics/hdmi' },
-            { label: 'RGB & SCART', link: '/topics/rgb' },
-            { label: 'Flash Carts', link: '/topics/flash-carts' },
-            { label: 'Optical Drive Emulators', link: '/topics/ode' },
-            { label: 'Upscalers', link: '/topics/upscalers' },
-            { label: 'FPGA', link: '/topics/fpga' },
-            { label: '3D Printing', link: '/topics/3d-printing' },
-          ],
-        },
-      ],
-    }),
-  ],
+	integrations: [
+		starlight({
+			title: 'My Docs',
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			sidebar: [
+				{
+					label: 'Guides',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Example Guide', slug: 'guides/example' },
+					],
+				},
+				{
+					label: 'Reference',
+					autogenerate: { directory: 'reference' },
+				},
+			],
+		}),
+	],
 });
